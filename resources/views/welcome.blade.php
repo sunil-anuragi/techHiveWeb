@@ -148,8 +148,8 @@
                 <div class="row align-items-center">
                     <div class="col-xl-8">
                         <div class="tp-header-2-top-address">
-                            <span><img src="assets/img/header/location.svg" alt=""><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"> The queens walk, TSV 3456</a></span>
-                            <span><img src="assets/img/header/message.svg" alt=""> <a href="mailto:teczainfo@mail.com">teczaofficial@gmail.com</a></span>
+                            <span><img src="{{asset('template/assets/img/header/location.svg')}}" alt=""><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"> The queens walk, TSV 3456</a></span>
+                            <span><img src="{{asset('template/assets/img/header/message.svg')}}" alt=""> <a href="mailto:teczainfo@mail.com">teczaofficial@gmail.com</a></span>
                         </div>
                     </div>
                     <div class="col-xl-4">
@@ -172,116 +172,116 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-4 col-md-4 col">
                            <div class="tp-header-logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="{{asset('template/index.html')}}"><img src="{{asset('template/assets/img/logo/logo.png')}}" alt=""></a>
                            </div>
                         </div>
                         <div class="col-xl-5 d-none d-xl-block">
                             <div class="tp-header-main-menu tp-header-2-main-menu">
                                 <nav class="tp-main-menu-content">
                                     <ul>
-                                        <li class="has-dropdown p-static"><a href="index.html">Home</a>
+                                        <li class="has-dropdown p-static"><a href="{{asset('template/index.html')}}">Home</a>
                                             <div class="tp-submenu submenu submenu-2 has-homemenu">
                                                 <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-5">
                                                     <div class="col homemenu">
                                                         <div class="homemenu-thumb mb-15">
                                                             <img src="{{asset('template/assets/img/menu/home1.jpg')}}" alt="">
                                                             <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="index.html">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="index-one-page.html">One Page</a>
+                                                                <a class="menu-btn show-1" href="{{asset('template/index.html')}}">Multi Page</a>
+                                                                <a class="menu-btn show-2" href="{{asset('template/index-one-page.html')}}">One Page</a>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
                                                             <h4 class="homemenu-title">
-                                                                <a href="index.html">Home 01</a>
+                                                                <a href="{{asset('template/index.html')}}">Home 01</a>
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="col homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/menu/home2.jpg" alt="">
+                                                            <img src="{{asset('template/assets/img/menu/home2.jpg')}}" alt="">
                                                             <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="index-2.html">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="index2-one-page.html">One Page</a>
+                                                                <a class="menu-btn show-1" href="{{asset('template/index-2.html')}}">Multi Page</a>
+                                                                <a class="menu-btn show-2" href="{{asset('template/index2-one-page.html')}}">One Page</a>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
                                                             <h4 class="homemenu-title">
-                                                                <a href="index-2.html">Home 02</a>
+                                                                <a href="{{asset('template/index-2.html')}}">Home 02</a>
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="col homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/menu/home3.jpg" alt="">
+                                                            <img src="{{asset('template/assets/img/menu/home3.jpg')}}" alt="">
                                                             <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="index-3.html">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="index3-one-page.html">One Page</a>
+                                                                <a class="menu-btn show-1" href="{{asset('template/index-3.html')}}">Multi Page</a>
+                                                                <a class="menu-btn show-2" href="{{asset('template/index3-one-page.html')}}">One Page</a>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
                                                             <h4 class="homemenu-title">
-                                                                <a href="index-3.html">Home 03</a>
+                                                                <a href="{{asset('template/index-3.html')}}">Home 03</a>
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="col homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/menu/home4.jpg" alt="">
+                                                            <img src="{{asset('template/assets/img/menu/home4.jpg')}}" alt="">
                                                             <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="index-4.html">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="index4-one-page.html">One Page</a>
+                                                                <a class="menu-btn show-1" href="{{asset('template/index-4.html')}}">Multi Page</a>
+                                                                <a class="menu-btn show-2" href="{{asset('template/index4-one-page.html')}}">One Page</a>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
                                                             <h4 class="homemenu-title">
-                                                                <a href="index-4.html">Home 04</a>
+                                                                <a href="{{asset('template/index-4.html')}}">Home 04</a>
                                                             </h4>
                                                         </div>
                                                     </div>
                                                     <div class="col homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/menu/home5.jpg" alt="">
+                                                            <img src="{{asset('template/assets/img/menu/home5.jpg')}}" alt="">
                                                             <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="index-5.html">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="index5-one-page.html">One Page</a>
+                                                                <a class="menu-btn show-1" href="{{asset('template/index-5.html')}}">Multi Page</a>
+                                                                <a class="menu-btn show-2" href="{{asset('template/index5-one-page.html')}}">One Page</a>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
                                                             <h4 class="homemenu-title">
-                                                                <a href="index-5.html">Home 05</a>
+                                                                <a href="{{asset('template/index-5.html')}}">Home 05</a>
                                                             </h4>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="has-dropdown"><a href="index.html">Pages</a>
+                                        <li class="has-dropdown"><a href="{{asset('template/index.html')}}">Pages</a>
                                             <ul class="submenu tp-submenu">
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="team.html">Our Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="testimonials.html">Testimonials</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="portfolio.html">Our Portfolio</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                <li><a href="faq.html">Our Faq</a></li>
-                                                <li><a href="error.html">Error</a></li>
+                                                <li><a href="{{asset('template/about.html')}}">About Us</a></li>
+                                                <li><a href="{{asset('template/team.html')}}">Our Team</a></li>
+                                                <li><a href="{{asset('template/team-details.html')}}">Team Details</a></li>
+                                                <li><a href="{{asset('template/testimonials.html')}}">Testimonials</a></li>
+                                                <li><a href="{{asset('template/pricing.html')}}">Pricing</a></li>
+                                                <li><a href="{{asset('template/portfolio.html')}}">Our Portfolio</a></li>
+                                                <li><a href="{{asset('template/portfolio-details.html')}}">Portfolio Details</a></li>
+                                                <li><a href="{{asset('template/faq.html')}}">Our Faq</a></li>
+                                                <li><a href="{{asset('template/error.html')}}">Error</a></li>
                                             </ul>
                                         </li>
-                                        <li class="has-dropdown"><a href="service.html">Services</a>
+                                        <li class="has-dropdown"><a href="{{asset('template/service.html')}}">Services</a>
                                             <ul class="submenu tp-submenu">
-                                                <li><a href="service.html">Our Service</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
+                                                <li><a href="{{asset('template/service.html')}}">Our Service</a></li>
+                                                <li><a href="{{asset('template/service-details.html')}}">Service Details</a></li>
                                             </ul>
                                         </li>
-                                        <li class="has-dropdown"><a href="blog.html">Blog</a>
+												<li class="has-dropdown"><a href="{{asset('template/blog.html')}}">Blog</a>
                                             <ul class="submenu tp-submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-sideber.html">Blog Sidebar</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                                <li><a href="{{asset('template/blog.html')}}">Blog</a></li>
+                                                <li><a href="{{asset('template/blog-sideber.html')}}">Blog Sidebar</a></li>
+                                                <li><a href="{{asset('template/blog-details.html')}}">Blog Details</a></li>
                                             </ul>
                                         </li>
-                                        <li class="has-dropdown"><a href="contact.html">Contact</a></li>
+                                        <li class="has-dropdown"><a href="{{asset('template/contact.html')}}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -301,10 +301,10 @@
                                         <div class="cart-content-wrap d-flex align-items-center justify-content-between">
                                             <div class="cart-img-info d-flex align-items-center">
                                                 <div class="cart-thumb">
-                                                    <a href="shop-details.html"> <img src="assets/img/shop/shop-1.jpg" alt=""></a>
+                                                    <a href="{{asset('template/shop-details.html')}}"> <img src="{{asset('template/assets/img/shop/shop-1.jpg')}}" alt=""></a>
                                                 </div>
                                                 <div class="cart-content">
-                                                    <h5 class="cart-title"><a href="shop-details.html">Mug with pencil</a></h5>
+                                                    <h5 class="cart-title"><a href="{{asset('template/shop-details.html')}}">Mug with pencil</a></h5>
                                                     <span> $ 22.9 <del>$39.9</del></span>
                                                 </div>
                                             </div>
@@ -315,10 +315,10 @@
                                         <div class="cart-content-wrap d-flex justify-content-between align-items-center">
                                             <div class="cart-img-info  d-flex align-items-center">
                                                 <div class="cart-thumb">
-                                                    <a href="shop-details.html"> <img src="assets/img/shop/shop-2.jpg" alt=""></a>
+                                                    <a href="{{asset('template/shop-details.html')}}"> <img src="{{asset('template/assets/img/shop/shop-2.jpg')}}" alt=""></a>
                                                 </div>
                                                 <div class="cart-content">
-                                                    <h5 class="cart-title"><a href="shop-details.html">Student bag</a></h5>
+                                                    <h5 class="cart-title"><a href="{{asset('template/shop-details.html')}}">Student bag</a></h5>
                                                     <span> $ 22.9 <del>$39.9 </del></span>
                                                 </div>
                                             </div>
@@ -331,15 +331,15 @@
                                             <span>$100.0</span>
                                         </div>
                                         <div class="minicart-btn">
-                                            <a class="cart-btn mb-10" href="cart.html"><span>Shopping Cart</span></a>
-                                            <a class="cart-btn cart-btn-black" href="checkout.html"><span>Checkout</span></a>
+                                            <a class="cart-btn mb-10" href="{{asset('template/cart.html')}}"><span>Shopping Cart</span></a>
+                                            <a class="cart-btn cart-btn-black" href="{{asset('template/checkout.html')}}"><span>Checkout</span></a>
                                         </div>
                                     </div>
                                 </div>
     
                                 <!-- header button -->
                                 <div class="tp-header-button d-none d-lg-block">
-                                    <a class="tp-header-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Get a Quote</span></a>
+                                    <a class="tp-header-btn" rel="noreferrer" href="{{asset('template/contact.html')}}" target="_blank"><span>Get a Quote</span></a>
                                 </div>
     
                                 <!-- header mobile button -->
@@ -370,13 +370,13 @@
                         <!-- slide item 1 -->
                         <div class="swiper-slide">
                             <div class="tp-slider-height tp-slider-2-height">
-                                <div class="tp-slider-bg tp-slider-2-overlay p-relative" data-background="assets/img/slider/slider-2-bg-1.jpg"></div>
+                                <div class="tp-slider-bg tp-slider-2-overlay p-relative" data-background="{{asset('template/assets/img/slider/slider-2-bg-1.jpg')}}"></div>
                                 <div class="container">
                                     <div class="row align-items-center">
                                         <div class="col-xl-3 col-lg-3 col-md-3">
                                             <div class="tp-slider-2-left p-relative z-index-11">
                                                 <div class="tp-slider-2-content-shape p-relative">
-                                                    <img src="assets/img/slider/shape/home-two/slider-2-shape-1.png" alt="">
+                                                    <img src="{{asset('template/assets/img/slider/shape/home-two/slider-2-shape-1.png')}}" alt="">
                                                     <div class="tp-slider-2-content-icon">
                                                         <a class="popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fa-regular fa-arrow-up-right"></i></a>
                                                     </div>
@@ -388,18 +388,18 @@
                                                 <div class="tp-slider-title-box">
                                                     <h1 class="tp-slider-title tp-slider-2-title">discover what
                                                         your expert can <br>
-                                                        do for your <img class="tp-slider-2-heding-shape" src="assets/img/slider/shape/home-two/slider-2-content-shape.png" alt="">
+                                                        do for your <img class="tp-slider-2-heding-shape" src="{{asset('template/assets/img/slider/shape/home-two/slider-2-content-shape.png')}}" alt="">
                                                         </h1>
                                                 </div>
                                                 <div class="tp-slider-btn-box d-inline-flex mt-40">
-                                                    <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Discover More</span></a>
+                                                    <a class="tp-btn" rel="noreferrer" href="{{asset('template/contact.html')}}" target="_blank"><span>Discover More</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tp-slider-2-shape">
-                                    <img class="tp-slider-2-bg-shape" src="assets/img/slider/shape/home-two/slider-2-bg-shape.png" alt="">
+                                    <img class="tp-slider-2-bg-shape" src="{{asset('template/assets/img/slider/shape/home-two/slider-2-bg-shape.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -407,13 +407,13 @@
                         <!-- slide item 2 -->
                         <div class="swiper-slide">
                             <div class="tp-slider-height tp-slider-2-height">
-                                <div class="tp-slider-bg tp-slider-2-overlay p-relative" data-background="assets/img/slider/slider-2-bg-2.jpg"></div>
+                                <div class="tp-slider-bg tp-slider-2-overlay p-relative" data-background="{{asset('template/assets/img/slider/slider-2-bg-2.jpg')}}"></div>
                                 <div class="container">
                                     <div class="row align-items-center">
                                         <div class="col-xl-3 col-lg-3 col-md-3">
                                             <div class="tp-slider-2-left p-relative z-index-11">
                                                 <div class="tp-slider-2-content-shape p-relative">
-                                                    <img src="assets/img/slider/shape/home-two/slider-2-shape-1.png" alt="">
+                                                    <img src="{{asset('template/assets/img/slider/shape/home-two/slider-2-shape-1.png')}}" alt="">
                                                     <div class="tp-slider-2-content-icon">
                                                         <a class="popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fa-regular fa-arrow-up-right"></i></a>
                                                     </div>
@@ -423,18 +423,18 @@
                                         <div class="col-xl-6 col-lg-8 col-md-9 col-sm-8">
                                             <div class="tp-slider-2-content">
                                                 <div class="tp-slider-title-box">
-                                                    <h1 class="tp-slider-title tp-slider-2-title">Unveiling a Their Potentials  for<br> Your Needs<img class="tp-slider-2-heding-shape" src="assets/img/slider/shape/home-two/slider-2-content-shape.png" alt="">
+                                                    <h1 class="tp-slider-title tp-slider-2-title">Unveiling a Their Potentials  for<br> Your Needs<img class="tp-slider-2-heding-shape" src="{{asset('template/assets/img/slider/shape/home-two/slider-2-content-shape.png')}}" alt="">
                                                         </h1>
                                                 </div>
                                                 <div class="tp-slider-btn-box d-inline-flex mt-40">
-                                                    <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Discover More</span></a>
+                                                    <a class="tp-btn" rel="noreferrer" href="{{asset('template/contact.html')}}" target="_blank"><span>Discover More</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tp-slider-2-shape">
-                                    <img class="tp-slider-2-bg-shape" src="assets/img/slider/shape/home-two/slider-2-bg-shape.png" alt="">
+                                    <img class="tp-slider-2-bg-shape" src="{{asset('template/assets/img/slider/shape/home-two/slider-2-bg-shape.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -442,13 +442,13 @@
                         <!-- slide item 3 -->
                         <div class="swiper-slide">
                             <div class="tp-slider-height tp-slider-2-height">
-                                <div class="tp-slider-bg tp-slider-2-overlay p-relative" data-background="assets/img/slider/slider-2-bg-3.jpg"></div>
+                                <div class="tp-slider-bg tp-slider-2-overlay p-relative" data-background="{{asset('template/assets/img/slider/slider-2-bg-3.jpg')}}"></div>
                                 <div class="container">
                                     <div class="row align-items-center">
                                         <div class="col-xl-3 col-lg-3 col-md-3">
                                             <div class="tp-slider-2-left p-relative z-index-11">
                                                 <div class="tp-slider-2-content-shape p-relative">
-                                                    <img src="assets/img/slider/shape/home-two/slider-2-shape-1.png" alt="">
+                                                    <img src="{{asset('template/assets/img/slider/shape/home-two/slider-2-shape-1.png')}}" alt="">
                                                     <div class="tp-slider-2-content-icon">
                                                         <a class="popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fa-regular fa-arrow-up-right"></i></a>
                                                     </div>
@@ -458,18 +458,18 @@
                                         <div class="col-xl-6 col-lg-8 col-md-9 col-sm-8">
                                             <div class="tp-slider-2-content">
                                                 <div class="tp-slider-title-box">
-                                                    <h1 class="tp-slider-title tp-slider-2-title">Exploring your Their Abilities <br> for Benefit <img class="tp-slider-2-heding-shape" src="assets/img/slider/shape/home-two/slider-2-content-shape.png" alt="">
+                                                    <h1 class="tp-slider-title tp-slider-2-title">Exploring your Their Abilities <br> for Benefit <img class="tp-slider-2-heding-shape" src="{{asset('template/assets/img/slider/shape/home-two/slider-2-content-shape.png')}}" alt="">
                                                         </h1>
                                                 </div>
                                                 <div class="tp-slider-btn-box d-inline-flex mt-40">
-                                                    <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Discover More</span></a>
+                                                    <a class="tp-btn" rel="noreferrer" href="{{asset('template/contact.html')}}" target="_blank"><span>Discover More</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tp-slider-2-shape">
-                                    <img class="tp-slider-2-bg-shape" src="assets/img/slider/shape/home-two/slider-2-bg-shape.png" alt="">
+                                    <img class="tp-slider-2-bg-shape" src="{{asset('template/assets/img/slider/shape/home-two/slider-2-bg-shape.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -493,12 +493,12 @@
                     <div class="col-xl-6 col-lg-6 col-md-8">
                         <div class="tp-about-2-left-wrapper wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-about-2-thumb p-relative">
-                                <img class="tp-about-2-main-thumb" src="assets/img/about/about-2-thum.jpg" alt="">
-                                <img class="tp-about-2-img2" src="assets/img/about/about-2-thum2.jpg" alt="">
+                                <img class="tp-about-2-main-thumb" src="{{asset('template/assets/img/about/about-2-thum.jpg')}}" alt="">
+                                <img class="tp-about-2-img2" src="{{asset('template/assets/img/about/about-2-thum2.jpg')}}" alt="">
                                 <div class="tp-about-2-thumb-shape">
                                     <div class="tp-about-2-thumb-content-shape">
                                         <div class="tp-about-2-thumb-content-shape-img">
-                                            <img src="assets/img/about/about-2-shape1.jpg" alt="">
+                                            <img src="{{asset('template/assets/img/about/about-2-shape1.jpg')}}" alt="">
                                         </div>
                                         <div class="tp-about-2-thumb-content">
                                             <h4 class="tp-counter tp-about-2-thumb-title"><span class="purecounter" data-purecounter-duration="2" data-purecounter-end="4">4</span>.2 K</h4>
@@ -506,7 +506,7 @@
                                             <p class="tp-about-2-thumb-paragraph">Satisfied Clients</p>
                                         </div>
                                     </div>
-                                    <img class="tp-about-2-thumb-shape2" src="assets/img/about/about-2-shape2.png" alt="">
+                                    <img class="tp-about-2-thumb-shape2" src="{{asset('template/assets/img/about/about-2-shape2.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -524,7 +524,7 @@
                             <div class="tp-about-2-feature-box">
                                 <div class="tp-about-2-feature-item d-flex">
                                     <div class="tp-about-2-feature-icon">
-                                        <img src="assets/img/about/about-2-feature-icon1.svg" alt="">
+                                        <img src="{{asset('template/assets/img/about/about-2-feature-icon1.svg')}}" alt="">
                                     </div>
                                     <div class="tp-about-2-feature-content">
                                         <h4>Best Business <br>
@@ -533,7 +533,7 @@
                                 </div>
                                 <div class="tp-about-2-feature-item d-flex ml-80">
                                     <div class="tp-about-2-feature-icon">
-                                        <img src="assets/img/about/about-2-feature-icon2.svg" alt="">
+                                        <img src="{{asset('template/assets/img/about/about-2-feature-icon2.svg')}}" alt="">
                                     </div>
                                     <div class="tp-about-2-feature-content">
                                         <h4>Marketing <br>
@@ -557,11 +557,11 @@
                             </div>
                             <div class="tp-about-2-button">
                                 <div class="tp-about-2-btn">
-                                    <a class="tp-btn" rel="noreferrer" href="about.html" target="_blank"><span>Discover More</span></a>
+                                    <a class="tp-btn" rel="noreferrer" href="{{asset('template/about.html')}}" target="_blank"><span>Discover More</span></a>
                                 </div>
                                 <div class="tp-about-2-bottom-item d-flex">
                                     <div class="tp-about-2-bottom-icon">
-                                        <img src="assets/img/about/about-camp-icon.svg" alt="">
+                                        <img src="{{asset('template/assets/img/about/about-camp-icon.svg')}}" alt="">
                                     </div>
                                     <div class="tp-about-2-bottom-content">
                                         <h2 class="tp-counter tp-about-2-bottom-title"><span class="purecounter" data-purecounter-duration="2" data-purecounter-end="25">25</span></h2>
@@ -579,7 +579,7 @@
 
 
         <!-- service area start -->
-        <section class="tp-service-2-area tp-service-2-overlay pt-95 pb-90" data-background="assets/img/service/service-2-bg.png">
+        <section class="tp-service-2-area tp-service-2-overlay pt-95 pb-90" data-background="{{asset('template/assets/img/service/service-2-bg.png')}}">
             <div class="tp-service-2-bg-overlay"></div>
             <div class="container">
                 <div class="row">
@@ -595,57 +595,57 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-service-2-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-service-2-thumb">
-                                <a href="service-details.html"><img src="assets/img/service/service-2-img1.jpg" alt=""></a>
+                                <a href="{{asset('template/service-details.html')}}"><img src="{{asset('template/assets/img/service/service-2-img1.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-service-2-content">
                                 <div class="tp-service-2-icon">
                                     <span><i class="flaticon-advertisig-agency"></i></span>
                                 </div>
-                                <h4 class="tp-service-2-title"><a href="service-details.html">digital marketing</a></h4>
+                                <h4 class="tp-service-2-title"><a href="{{asset('template/service-details.html')}}">digital marketing</a></h4>
                                 <p class="tp-service-2-paragraph">Outsourcing is just a tool my own
                                     achieve and business</p>
                             </div>
                             <div class="tp-service-2-button">
-                                <a class="tp-service-2-btn" href="service-details.html">READ MORE</a>
-                                <a class="tp-service-2-arrow-btn" href="service-details.html"><i class="flaticon-next"></i></a>
+                                <a class="tp-service-2-btn" href="{{asset('template/service-details.html')}}">READ MORE</a>
+                                <a class="tp-service-2-arrow-btn" href="{{asset('template/service-details.html')}}"><i class="flaticon-next"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-service-2-wrapper wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-service-2-thumb">
-                                <a href="service-details.html"><img src="assets/img/service/service-2-img2.jpg" alt=""></a>
+                                <a href="{{asset('template/service-details.html')}}"><img src="{{asset('template/assets/img/service/service-2-img2.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-service-2-content">
                                 <div class="tp-service-2-icon">
                                     <span><i class="flaticon-data-visualization-1"></i></span>
                                 </div>
-                                <h4 class="tp-service-2-title"><a href="service-details.html">it management</a></h4>
+                                <h4 class="tp-service-2-title"><a href="{{asset('template/service-details.html')}}">it management</a></h4>
                                 <p class="tp-service-2-paragraph">Outsourcing is just a tool my own
                                     achieve and business</p>
                             </div>
                             <div class="tp-service-2-button">
-                                <a class="tp-service-2-btn" href="service-details.html">READ MORE</a>
-                                <a class="tp-service-2-arrow-btn" href="service-details.html"><i class="flaticon-next"></i></a>
+                                <a class="tp-service-2-btn" href="{{asset('template/service-details.html')}}">READ MORE</a>
+                                <a class="tp-service-2-arrow-btn" href="{{asset('template/service-details.html')}}"><i class="flaticon-next"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-service-2-wrapper wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-service-2-thumb">
-                                <a href="service-details.html"><img src="assets/img/service/service-2-img3.jpg" alt=""></a>
+                                <a href="service-details.html"><img src="{{asset('template/assets/img/service/service-2-img3.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-service-2-content">
                                 <div class="tp-service-2-icon">
                                     <span><i class="flaticon-graph"></i></span>
                                 </div>
-                                <h4 class="tp-service-2-title"><a href="service-details.html">marketing strategy</a></h4>
+                                <h4 class="tp-service-2-title"><a href="{{asset('template/service-details.html')}}">marketing strategy</a></h4>
                                 <p class="tp-service-2-paragraph">Outsourcing is just a tool my own
                                     achieve and business</p>
                             </div>
                             <div class="tp-service-2-button">
-                                <a class="tp-service-2-btn" href="service-details.html">READ MORE</a>
-                                <a class="tp-service-2-arrow-btn" href="service-details.html"><i class="flaticon-next"></i></a>
+                                <a class="tp-service-2-btn" href="{{asset('template/service-details.html')}}">READ MORE</a>
+                                <a class="tp-service-2-arrow-btn" href="{{asset('template/service-details.html')}}"><i class="flaticon-next"></i></a>
                             </div>
                         </div>
                     </div>
@@ -732,7 +732,7 @@
                                 <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Contact Us</span></a>
                             </div>
                             <div class="tp-technology-2-content-box-shape">
-                                <img src="assets/img/technology/technology-box-shape.png" alt="">
+                                <img src="{{asset('template/assets/img/technology/technology-box-shape.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -764,13 +764,13 @@
                                     <div class="tp-project-2-item swiper-slide wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                         <div class="tp-project-2-slide-wrapper">
                                             <div class="tp-project-2-thumb p-relative fix">
-                                                <img src="assets/img/project/project-img1.jpg" alt="">
+                                                <img src="{{asset('template/assets/img/project/project-img1.jpg')}}" alt="">
                                                 <div class="tp-project-2-down-content">
                                                         <div class="tp-project-2-down-icon">
-                                                            <a href="portfolio-details.html"><span><i class="flaticon-next"></i></span></a>
+                                                            <a href="{{asset('template/portfolio-details.html')}}"><span><i class="flaticon-next"></i></span></a>
                                                         </div>
                                                         <h6>Solution</h6>
-                                                        <h4 class="tp-project-2-down-title"><a href="portfolio-details.html">Data visualization</a></h4>
+                                                        <h4 class="tp-project-2-down-title"><a href="{{asset('template/portfolio-details.html')}}">Data visualization</a></h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -778,13 +778,13 @@
                                     <div class="tp-project-2-item swiper-slide wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                                         <div class="tp-project-2-slide-wrapper">
                                             <div class="tp-project-2-thumb p-relative fix">
-                                            <img src="assets/img/project/project-img2.jpg" alt="">
+                                            <img src="{{asset('template/assets/img/project/project-img2.jpg')}}" alt="">
                                             <div class="tp-project-2-down-content">
                                                     <div class="tp-project-2-down-icon">
-                                                        <a href="portfolio-details.html"><span><i class="flaticon-next"></i></span></a>
+                                                        <a href="{{asset('template/portfolio-details.html')}}"><span><i class="flaticon-next"></i></span></a>
                                                     </div>
                                                     <h6>Solution</h6>
-                                                    <h4 class="tp-project-2-down-title"><a href="portfolio-details.html">information manage</a></h4>
+                                                    <h4 class="tp-project-2-down-title"><a href="{{asset('template/portfolio-details.html')}}">information manage</a></h4>
                                             </div>
                                             </div>
                                         </div>
@@ -792,13 +792,13 @@
                                     <div class="tp-project-2-item swiper-slide wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                                         <div class="tp-project-2-slide-wrapper">
                                             <div class="tp-project-2-thumb p-relative fix">
-                                            <img src="assets/img/project/project-img3.jpg" alt="">
+                                            <img src="{{asset('template/assets/img/project/project-img3.jpg')}}" alt="">
                                             <div class="tp-project-2-down-content">
                                                     <div class="tp-project-2-down-icon">
-                                                        <a href="portfolio-details.html"><span><i class="flaticon-next"></i></span></a>
+                                                        <a href="{{asset('template/portfolio-details.html')}}"><span><i class="flaticon-next"></i></span></a>
                                                     </div>
                                                     <h6>Solution</h6>
-                                                    <h4 class="tp-project-2-down-title"><a href="portfolio-details.html">Data visualization</a></h4>
+                                                    <h4 class="tp-project-2-down-title"><a href="{{asset('template/portfolio-details.html')}}">Data visualization</a></h4>
                                             </div>
                                             </div>
                                         </div>
@@ -806,13 +806,13 @@
                                     <div class="tp-project-2-item swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
                                         <div class="tp-project-2-slide-wrapper">
                                             <div class="tp-project-2-thumb p-relative fix">
-                                            <img src="assets/img/project/project-img4.jpg" alt="">
+                                            <img src="{{asset('template/assets/img/project/project-img4.jpg')}}" alt="">
                                             <div class="tp-project-2-down-content">
                                                     <div class="tp-project-2-down-icon">
-                                                        <a href="portfolio-details.html"><span><i class="flaticon-next"></i></span></a>
+                                                        <a href="{{asset('template/portfolio-details.html')}}"><span><i class="flaticon-next"></i></span></a>
                                                     </div>
                                                     <h6>Solution</h6>
-                                                    <h4 class="tp-project-2-down-title"><a href="portfolio-details.html">Data visualization</a></h4>
+                                                    <h4 class="tp-project-2-down-title"><a href="{{asset('template/portfolio-details.html')}}">Data visualization</a></h4>
                                             </div>
                                             </div>
                                         </div>
@@ -829,13 +829,13 @@
 
 
         <!-- Counter area start -->
-        <section class="tp-counter-2-area pt-125 pb-85" data-background="assets/img/counter/counter-bg.png">
+        <section class="tp-counter-2-area pt-125 pb-85" data-background="{{asset('template/assets/img/counter/counter-bg.png')}}">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-counter-2-icon">
-                                <img src="assets/img/counter/counter-icon1.svg" alt="">
+                                <img src="{{asset('template/assets/img/counter/counter-icon1.svg')}}" alt="">
                             </div>
                             <div class="tp-counter-2-number-item d-flex justify-content-center">
                                 <h2 class="tp-counter tp-counter-2-count"><span class="purecounter" data-purecounter-duration="5" data-purecounter-end="320">320</span></h2>
@@ -848,7 +848,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-counter-2-icon">
-                                <img src="assets/img/counter/counter-icon2.svg" alt="">
+                                <img src="{{asset('template/assets/img/counter/counter-icon2.svg')}}" alt="">
                             </div>
                             <div class="tp-counter-2-number-item d-flex justify-content-center">
                                 <h2 class="tp-counter tp-counter-2-count"><span class="purecounter" data-purecounter-duration="2" data-purecounter-end="290">290</span></h2>
@@ -861,7 +861,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-counter-2-icon">
-                                <img src="assets/img/counter/counter-icon3.svg" alt="">
+                                <img src="{{asset('template/assets/img/counter/counter-icon3.svg')}}" alt="">
                             </div>
                             <div class="tp-counter-2-number-item d-flex justify-content-center">
                                 <h2 class="tp-counter tp-counter-2-count"><span class="purecounter" data-purecounter-duration="7" data-purecounter-end="4565">4565</span></h2>
@@ -874,7 +874,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
                             <div class="tp-counter-2-icon">
-                                <img src="assets/img/counter/counter-icon4.svg" alt="">
+                                <img src="{{asset('template/assets/img/counter/counter-icon4.svg')}}" alt="">
                             </div>
                             <div class="tp-counter-2-number-item d-flex justify-content-center">
                                 <h2 class="tp-counter tp-counter-2-count"><span class="purecounter" data-purecounter-duration="9" data-purecounter-end="8546">8546</span></h2>
@@ -892,7 +892,7 @@
 
 
         <!-- Faq area satrt -->
-        <section class="tp-faq-3-area pt-120 pb-120" data-background="assets/img/faq/faq-2-bg.png">
+        <section class="tp-faq-3-area pt-120 pb-120" data-background="{{asset('template/assets/img/faq/faq-2-bg.png')}}">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-8 col-md-10">
@@ -953,7 +953,7 @@
                     <div class="col-xl-6 col-lg-7 col-md-10">
                         <div class="tp-faq-3-right-wrapper mt-10 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-faq-3-right-thumb mb-65">
-                                <img src="assets/img/faq/faq-2-img.jpg" alt="">
+                                <img src="{{asset('template/assets/img/faq/faq-2-img.jpg')}}" alt="">
                             </div>
                             <div class="tp-about-list-item tp-faq-3-right-list-item mb-45">
                                 <ul>
@@ -1013,13 +1013,13 @@
                                             <div class="tp-testimonial-2-member-top mb-20">
                                                 <div class="tp-testimonial-2-member d-flex">
                                                     <div class="tp-testimonial-2-img">
-                                                        <img src="assets/img/testimonial/testi1.jpg" alt="">
+                                                        <img src="{{asset('template/assets/img/testimonial/testi1.jpg')}}" alt="">
                                                     </div>
                                                     <div class="tp-testimonial-2-img-content">
                                                         <h4>Annete Black</h4>
                                                         <p>Engineer</p>
                                                         <div class="tp-testimonial-2-review">
-                                                            <img src="assets/img/testimonial/testi-start.png" alt="">
+                                                            <img src="{{asset('template/assets/img/testimonial/testi-start.png')}}" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1038,13 +1038,13 @@
                                             <div class="tp-testimonial-2-member-top mb-20">
                                                 <div class="tp-testimonial-2-member d-flex">
                                                     <div class="tp-testimonial-2-img">
-                                                        <img src="assets/img/testimonial/testi2.jpg" alt="">
+                                                        <img src="{{asset('template/assets/img/testimonial/testi2.jpg')}}" alt="">
                                                     </div>
                                                     <div class="tp-testimonial-2-img-content">
                                                         <h4>JIMMIE JACKSON</h4>
                                                         <p>Engineer</p>
                                                         <div class="tp-testimonial-2-review">
-                                                            <img src="assets/img/testimonial/testi-start.png" alt="">
+                                                            <img src="{{asset('template/assets/img/testimonial/testi-start.png')}}" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1064,8 +1064,8 @@
                     </div>
                 </div>
                 <div class="tp-service-solution tp-testimonial-2-solution  text-center mt-65">
-                    <a class="tp-service-solution-btn tp-testimonial-2-btn" href="service-details.html">HURRAY !</a>
-                    <span class="tp-service-solution-text  tp-testimonial-2-solution-text">Let’s make something great work together. <a href="service-details.html">View all Reviews</a></span>
+                    <a class="tp-service-solution-btn tp-testimonial-2-btn" href="{{asset('template/service-details.html')}}">HURRAY !</a>
+                    <span class="tp-service-solution-text  tp-testimonial-2-solution-text">Let’s make something great work together. <a href="{{asset('template/service-details.html')}}">View all Reviews</a></span>
                 </div>
             </div>
         </section>
@@ -1076,15 +1076,15 @@
         <!-- Choose-us area start -->
         <section class="tp-choose-us-2-area pt-120 pb-120 p-relative z-index-1 gray-bg">
             <div class="tp-choose-us-2-bg-shape">
-                <img src="assets/img/choose-us/choose-us-man-shape.png" alt="">
+                <img src="{{asset('template/assets/img/choose-us/choose-us-man-shape.png')}}" alt="">
             </div>
             <div class="tp-choose-us-2-thumb wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                <img src="assets/img/choose-us/choose-us-2-img.jpg" alt="">
+                <img src="{{asset('template/assets/img/choose-us/choose-us-2-img.jpg')}}" alt="">
                 <div class="tp-choose-us-2-thumb-content">
                     <span>The best source for <br>
                         IT solution and serices</span>
                     <div class="tp-choose-us-2-thumb-shape">
-                        <img src="assets/img/choose-us/choose-us-2-shape.png" alt="">
+                        <img src="{{asset('template/assets/img/choose-us/choose-us-2-shape.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -1113,7 +1113,7 @@
                                                 DEVELOPMENT</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1127,7 +1127,7 @@
                                                 IT OUTSOURCE</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1141,7 +1141,7 @@
                                                 INFORMATION MANAGE</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1155,7 +1155,7 @@
                                                 BUSINESS SYSTEMS</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1187,7 +1187,7 @@
                                     Networking</h3>
                             </div>
                             <div class="tp-brand-2-shape">
-                                <img src="assets/img/feature/feature-shape.png" alt="">
+                                <img src="{{asset('template/assets/img/feature/feature-shape.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -1201,7 +1201,7 @@
                                     Designing</h3>
                             </div>
                             <div class="tp-brand-2-shape">
-                                <img src="assets/img/feature/feature-shape.png" alt="">
+                                <img src="{{asset('template/assets/img/feature/feature-shape.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -1215,7 +1215,7 @@
                                     Consultation</h3>
                             </div>
                             <div class="tp-brand-2-shape">
-                                <img src="assets/img/feature/feature-shape.png" alt="">
+                                <img src="{{asset('template/assets/img/feature/feature-shape.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -1229,7 +1229,7 @@
                                     Development</h3>
                             </div>
                             <div class="tp-brand-2-shape">
-                                <img src="assets/img/feature/feature-shape.png" alt="">
+                                <img src="{{asset('template/assets/img/feature/feature-shape.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -1243,7 +1243,7 @@
                                     Management</h3>
                             </div>
                             <div class="tp-brand-2-shape">
-                                <img src="assets/img/feature/feature-shape.png" alt="">
+                                <img src="{{asset('template/assets/img/feature/feature-shape.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -1260,27 +1260,27 @@
                                 <div class="swiper-wrapper">
                                     <div class="tp-brand-2-item swiper-slide wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
                                         <div class="tp-brand-2-img-thum">
-                                            <img src="assets/img/brand/brand1.png" alt="">
+                                            <img src="{{asset('template/assets/img/brand/brand1.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="tp-brand-2-item swiper-slide wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                                         <div class="tp-brand-2-img-thum">
-                                            <img src="assets/img/brand/brand2.png" alt="">
+                                            <img src="{{asset('template/assets/img/brand/brand2.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="tp-brand-2-item swiper-slide wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                                         <div class="tp-brand-2-img-thum">
-                                            <img src="assets/img/brand/brand3.png" alt="">
+                                            <img src="{{asset('template/assets/img/brand/brand3.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="tp-brand-2-item swiper-slide wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
                                         <div class="tp-brand-2-img-thum">
-                                            <img src="assets/img/brand/brand4.png" alt="">
+                                            <img src="{{asset('template/assets/img/brand/brand4.png')}}" alt="">
                                         </div>
                                     </div>
                                     <div class="tp-brand-2-item swiper-slide wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
                                         <div class="tp-brand-2-img-thum">
-                                            <img src="assets/img/brand/brand5.png" alt="">
+                                            <img src="{{asset('template/assets/img/brand/brand5.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -1307,7 +1307,7 @@
                                         <div class="row">
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="tp-management-2-thumb wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                                    <img src="assets/img/management/management-2-img1.jpg" alt="">
+                                                    <img src="{{asset('template/assets/img/management/management-2-img1.jpg')}}" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-xl-6 col-lg-6">
@@ -1347,7 +1347,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="tp-cta-2-btn mt-20">
-                                                        <a class="tp-btn" href="contact.html"><span>get in touch with us</span></a>
+                                                        <a class="tp-btn" href="{{asset('template/contact.html')}}"><span>get in touch with us</span></a>
                                                     </div>
                                                 </div>
 
@@ -1361,7 +1361,7 @@
                                         <div class="row">
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="tp-management-2-thumb">
-                                                    <img src="assets/img/management/management-2-img2.jpg" alt="">
+                                                    <img src="{{asset('template/assets/img/management/management-2-img2.jpg')}}" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-xl-6 col-lg-6">
@@ -1414,7 +1414,7 @@
                                         <div class="row">
                                             <div class="col-xl-6 col-lg-6">
                                                 <div class="tp-management-2-thumb">
-                                                    <img src="assets/img/management/management-2-img3.jpg" alt="">
+                                                    <img src="{{asset('template/assets/img/management/management-2-img3.jpg')}}" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-xl-6 col-lg-6">
@@ -1453,7 +1453,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="tp-cta-2-btn mt-20">
-                                                        <a class="tp-btn" href="contact.html"><span>get in touch with us</span></a>
+                                                        <a class="tp-btn" href="{{asset('template/contact.html')}}"><span>get in touch with us</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1508,7 +1508,7 @@
                             <div class="tp-blog-2-top-member">
                                 <div class="tp-blog-2-top-user">
                                     <div class="tp-blog-2-top-user-img">
-                                        <img src="assets/img/blog/blog-2-user.png" alt="">
+                                        <img src="{{asset('template/assets/img/blog/blog-2-user.png')}}" alt="">
                                     </div>
                                     <div class="tp-blog-2-top-user-name">
                                         <span>By</span>
@@ -1520,14 +1520,14 @@
                                 </div>
                             </div>
                             <div class="tp-blog-2-thumb">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog1.jpg" alt=""></a>
+                                <a href="blog-details.html"><img src="{{asset('template/assets/img/blog/blog1.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-blog-2-content">
-                                <h4 class="tp-blog-title tp-blog-2-title"><a href="blog-details.html">Crafting Digital Identity the it
+                                <h4 class="tp-blog-title tp-blog-2-title"><a href="{{asset('template/blog-details.html')}}">Crafting Digital Identity the it
                                     Art of Agency Website</a></h4>
                                 <div class="tp-blog-2-content-bottom">
                                     <div class="tp-blog-2-button">
-                                        <a class="tp-blog-2-btn" href="blog-details.html"><i class="flaticon-right"></i> read more</a>
+                                        <a class="tp-blog-2-btn" href="{{asset('template/blog-details.html')}}"><i class="flaticon-right"></i> read more</a>
                                     </div>
                                     <div class="tp-blog-2-icon">
                                         <span><a href="#">Share <i class="flaticon-share"></i></a></span>
@@ -1541,7 +1541,7 @@
                             <div class="tp-blog-2-top-member">
                                 <div class="tp-blog-2-top-user">
                                     <div class="tp-blog-2-top-user-img">
-                                        <img src="assets/img/blog/blog-2-user.png" alt="">
+                                        <img src="{{asset('template/assets/img/blog/blog-2-user.png')}}" alt="">
                                     </div>
                                     <div class="tp-blog-2-top-user-name">
                                         <span>By</span>
@@ -1553,14 +1553,14 @@
                                 </div>
                             </div>
                             <div class="tp-blog-2-thumb">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog2.jpg" alt=""></a>
+                                <a href="{{asset('template/blog-details.html')}}"><img src="{{asset('template/assets/img/blog/blog2.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-blog-2-content">
-                                <h4 class="tp-blog-title tp-blog-2-title"><a href="blog-details.html">System is a term used to refer to
+                                <h4 class="tp-blog-title tp-blog-2-title"><a href="{{asset('template/blog-details.html')}}">System is a term used to refer to
                                     an organized collection</a></h4>
                                 <div class="tp-blog-2-content-bottom">
                                     <div class="tp-blog-2-button">
-                                        <a class="tp-blog-2-btn" href="blog-details.html"><i class="flaticon-right"></i> read more</a>
+                                        <a class="tp-blog-2-btn" href="{{asset('template/blog-details.html')}}"><i class="flaticon-right"></i> read more</a>
                                     </div>
                                     <div class="tp-blog-2-icon">
                                         <span><a href="#">Share <i class="flaticon-share"></i></a></span>
@@ -1574,7 +1574,7 @@
                             <div class="tp-blog-2-top-member">
                                 <div class="tp-blog-2-top-user">
                                     <div class="tp-blog-2-top-user-img">
-                                        <img src="assets/img/blog/blog-2-user.png" alt="">
+                                        <img src="{{asset('template/assets/img/blog/blog-2-user.png')}}" alt="">
                                     </div>
                                     <div class="tp-blog-2-top-user-name">
                                         <span>By</span>
@@ -1586,14 +1586,14 @@
                                 </div>
                             </div>
                             <div class="tp-blog-2-thumb">
-                                <a href="blog-details.html"><img src="assets/img/blog/blog3.jpg" alt=""></a>
+                                <a href="{{asset('template/blog-details.html')}}"><img src="{{asset('template/assets/img/blog/blog3.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-blog-2-content">
-                                <h4 class="tp-blog-title tp-blog-2-title"><a href="blog-details.html">We’re Leading in IT Technology
+                                <h4 class="tp-blog-title tp-blog-2-title"><a href="{{asset('template/blog-details.html')}}">We’re Leading in IT Technology
                                     Market researcher</a></h4>
                                 <div class="tp-blog-2-content-bottom">
                                     <div class="tp-blog-2-button">
-                                        <a class="tp-blog-2-btn" href="blog-details.html"><i class="flaticon-right"></i> read more</a>
+                                        <a class="tp-blog-2-btn" href="{{asset('template/blog-details.html')}}"><i class="flaticon-right"></i> read more</a>
                                     </div>
                                     <div class="tp-blog-2-icon">
                                         <span><a href="#">Share <i class="flaticon-share"></i></a></span>
@@ -1623,7 +1623,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50">
                             <div class="tp-footer-widget wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                 <div class="tp-footer-logo">
-                                    <a href="index.html"><img src="assets/img/footer/footer-logo.png" alt=""></a>
+                                    <a href="{{asset('template/index.html')}}"><img src="{{asset('template/assets/img/footer/footer-logo.png')}}" alt=""></a>
                                 </div>
                                 <div class="tp-footer-text">
                                     <p>Righteous indignation and dislike men
@@ -1643,12 +1643,12 @@
                                 <h4 class="tp-footer-title">NAVIGATION</h4>
                                 <div class="tp-footer-list">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="pricing.html">Pricing Plan</a></li>
-                                        <li><a href="about.html">About US</a></li>
-                                        <li><a href="service.html">Our Services</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="{{asset('template/index.html')}}">Home</a></li>
+                                        <li><a href="{{asset('template/pricing.html')}}">Pricing Plan</a></li>
+                                        <li><a href="{{asset('template/about.html')}}">About US</a></li>
+                                        <li><a href="{{asset('template/service.html')}}">Our Services</a></li>
+                                        <li><a href="{{asset('template/portfolio.html')}}">Portfolio</a></li>
+                                        <li><a href="{{asset('template/contact.html')}}">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1658,11 +1658,11 @@
                                 <h4 class="tp-footer-title">NEED HELP?</h4>
                                 <div class="tp-footer-list">
                                     <ul>
-                                        <li><a href="index.html">Support</a></li>
-                                        <li><a href="pricing.html">Privacy Policy</a></li>
-                                        <li><a href="about.html">Terms of Use</a></li>
-                                        <li><a href="service.html">Clients</a></li>
-                                        <li><a href="portfolio.html">Help</a></li>
+                                        <li><a href="{{asset('template/index.html')}}">Support</a></li>
+                                        <li><a href="{{asset('template/pricing.html')}}">Privacy Policy</a></li>
+                                        <li><a href="{{asset('template/about.html')}}">Terms of Use</a></li>
+                                        <li><a href="{{asset('template/service.html')}}">Clients</a></li>
+                                        <li><a href="{{asset('template/portfolio.html')}}">Help</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1672,9 +1672,9 @@
                                 <h4 class="tp-footer-title">Latest post</h4>
                                 <div class="tp-footer-2-thumb-wrap">
                                     <div class="tp-footer-2-thumb-item d-flex mb-30">
-                                        <a class="d-flex" href="blog-details.html">
+                                        <a class="d-flex" href="{{asset('template/blog-details.html')}}">
                                             <div class="tp-footer-2-thumb">
-                                                <img src="assets/img/footer/footer-post1.jpg" alt="">
+                                                <img src="{{asset('template/assets/img/footer/footer-post1.jpg')}}" alt="">
                                             </div>
                                             <div class="tp-footer-2-thumb-date">
                                                 <span><i class="flaticon-clock"></i> 02 May, 2024</span>
@@ -1684,9 +1684,9 @@
                                         </a>
                                     </div>
                                     <div class="tp-footer-2-thumb-item d-flex">
-                                        <a class="d-flex" href="blog-details.html">
+                                        <a class="d-flex" href="{{asset('template/blog-details.html')}}">
                                             <div class="tp-footer-2-thumb">
-                                                <img src="assets/img/footer/footer-post2.jpg" alt="">
+                                                <img src="{{asset('template/assets/img/footer/footer-post2.jpg')}}" alt="">
                                             </div>
                                             <div class="tp-footer-2-thumb-date">
                                                 <span><i class="flaticon-clock"></i> 02 May, 2024</span>
@@ -1706,7 +1706,7 @@
                     <div class="row align-items-center tp-footer-bg  pt-30 pb-20">
                         <div class="col-xl-12">
                             <div class="tp-footer-copy-right text-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="index.html">Tecza</a> – 2024</p>
+                                <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="{{asset('template/index.html')}}">Tecza</a> – 2024</p>
                             </div>
                         </div>
                     </div>
@@ -1714,10 +1714,6 @@
             </div>
         </section>
         <!-- footer area end -->
-
-
-
-
 
     <!-- JS here -->
     <script src="{{asset('template/assets/js/vendor/jquery.js')}}"></script>
