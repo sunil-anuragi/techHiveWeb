@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tecza - IT Solutions & Technology HTML Template</title>
+    <title>Tech Hive Web IT Solution </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,10 +30,6 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
 
-
-
-
-
     <!-- pre loader area start -->
     <div class="loader-wrapper">
         <div class="loader"></div>
@@ -53,14 +49,10 @@
     </div>
     <!-- back to top end -->
 
-
-
     <!-- cursor to top start -->
 	<div class="cursor"></div>
     <div class="cursor2"></div>
     <!-- cursor to top end -->
-
-
 
     <!-- Start Search Popup Section -->
     <div class="search-popup">
@@ -74,8 +66,6 @@
         </form>
     </div>
     <!-- Start Search Popup Section -->
-
-
 
     <!-- tp-offcanvus-area-start -->
     <div class="tpoffcanvas-area">
@@ -137,9 +127,6 @@
     </div>
     <div class="body-overlay"></div>
     <!-- tp-offcanvus-area-end -->
-
-
-
 
     <!-- header area start -->
     <header class="tp-header-height">
@@ -355,12 +342,7 @@
         </div>
     </header>
     <!-- header area end -->
-
-
-
     <main>
-
-
         <!-- slider area start -->
         <section class="tp-slider-area fix">
             <div class="tp-slider-wrapper p-relative">
@@ -483,9 +465,6 @@
             </div>
         </section>
         <!-- slider area end -->
-
-
-
         <!-- about area start -->
         <section class="tp-about-2-area pt-120 pb-120">
             <div class="container">
@@ -575,9 +554,6 @@
             </div>
         </section>
         <!-- about area end -->
-
-
-
         <!-- service area start -->
         <section class="tp-service-2-area tp-service-2-overlay pt-95 pb-90" data-background="{{asset('template/assets/img/service/service-2-bg.png')}}">
             <div class="tp-service-2-bg-overlay"></div>
@@ -653,9 +629,6 @@
             </div>
         </section>
         <!-- service area end -->
-
-
-
         <!-- tochnology area start -->
         <section class="tp-technology-2-area pt-95 pb-90">
             <div class="container">
@@ -740,10 +713,6 @@
             </div>
         </section>
         <!-- tocnology area end -->
-
-
-
-
         <!-- project area start -->
         <section class="tp-project-2-area pt-110 pb-120">
             <div class="container-fluid tp-project-2-container">
@@ -825,9 +794,6 @@
             </div>
         </section>
         <!-- project area end -->
-
-
-
         <!-- Counter area start -->
         <section class="tp-counter-2-area pt-125 pb-85" data-background="{{asset('template/assets/img/counter/counter-bg.png')}}">
             <div class="container">
@@ -888,9 +854,6 @@
             </div>
         </section>
         <!-- Counter area end -->
-
-
-
         <!-- Faq area satrt -->
         <section class="tp-faq-3-area pt-120 pb-120" data-background="{{asset('template/assets/img/faq/faq-2-bg.png')}}">
             <div class="container">
@@ -987,10 +950,6 @@
             </div>
         </section>
         <!-- Faq area end -->
-
-
-
-
         <!-- Testimonial area start -->
         <section class="tp-testimonial-2-area pt-120 pb-120">
             <div class="container">
@@ -1070,9 +1029,6 @@
             </div>
         </section>
         <!-- Testimonial area end -->
-
-
-
         <!-- Choose-us area start -->
         <section class="tp-choose-us-2-area pt-120 pb-120 p-relative z-index-1 gray-bg">
             <div class="tp-choose-us-2-bg-shape">
@@ -1170,9 +1126,6 @@
             </div>
         </section>
         <!-- Choose-us area end -->
-
-
-
         <!-- Brand area start -->
         <section class="tp-brand-2-area pb-120">
             <div class="container">
@@ -1291,9 +1244,6 @@
             </div>
         </section>
         <!-- Brand area end -->
-
-
-
         <!-- Management area start -->
         <section class="tp-management-2-area pt-120">
             <div class="tp-management-2-top">
@@ -1487,10 +1437,6 @@
             </div>
         </section>
         <!-- Management area end -->
-
-
-
-
         <!-- Blog area start -->
         <section class="tp-blog-2-area pt-110 pb-90">
             <div class="container">
@@ -1606,16 +1552,12 @@
             </div>
         </section>
         <!-- Blog area end -->
-
     </main>
-
-
-
         <!-- footer area start -->
         <section class="tp-footer-area tp-footer-2-area pt-130 fix">
             <div class="tp-footer-bg-shape">
-                <img class="tp-footer-bg-shape-1" src="assets/img/footer/footer-shape1.png" alt="">
-                <img class="tp-footer-bg-shape-2" src="assets/img/footer/footer-shape2.png" alt="">
+                <img class="tp-footer-bg-shape-1" src="{{asset('template/assets/img/footer/footer-shape1.png')}}" alt="">
+                <img class="tp-footer-bg-shape-2" src="{{asset('template/assets/img/footer/footer-shape2.png')}}" alt="">
             </div>
             <div class="tp-footer-top pb-65">
                 <div class="container">
