@@ -1,347 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+@extends('layout.main')
 
+@section('title') {{ 'Home | '.env('APP_NAME') }} @endsection
 
-<!-- Mirrored from html.storebuild.shop/tecza-prv/tecza/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Jun 2025 05:01:01 GMT -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tech Hive Web IT Solution </title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('template/assets/img/logo/favicons.png')}}">
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="{{asset('template/assets/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/swiper-bundle.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/slick.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/font-awesome-pro.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/flaticon_tecza.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/spacing.css')}}">
-    <link rel="stylesheet" href="{{asset('template/assets/css/main.css')}}">
-</head>
-
-<body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
-
-    <!-- pre loader area start -->
-    <div class="loader-wrapper">
-        <div class="loader"></div>
-        <div class="loder-section left-section"></div>
-        <div class="loder-section right-section"></div>
-        <div class="loader-brand-icon"><img src="{{asset('template/assets/img/logo/preloder.png')}}" alt=""></div>
-    </div>
-    <!-- pre loader area end -->
-
-
-
-    <!-- back to top start -->
-    <div class="prgoress_indicator active-progress">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 270.456;"></path>
-        </svg>
-    </div>
-    <!-- back to top end -->
-
-    <!-- cursor to top start -->
-	<div class="cursor"></div>
-    <div class="cursor2"></div>
-    <!-- cursor to top end -->
-
-    <!-- Start Search Popup Section -->
-    <div class="search-popup">
-        <button class="close-search style-two"><span class="flaticon-multiply"><i class="far fa-times-circle"></i></span></button>
-        <button class="close-search"><i class="fa-light fa-arrow-up"></i></button>
-        <form method="post" action="#">
-            <div class="form-group">
-                <input type="search" name="search-field" value="" placeholder="Search Here" required="">
-                <button type="submit"><i class="fal fa-search"></i></button>
-            </div>
-        </form>
-    </div>
-    <!-- Start Search Popup Section -->
-
-    <!-- tp-offcanvus-area-start -->
-    <div class="tpoffcanvas-area">
-        <div class="tpoffcanvas">
-            <div class="tpoffcanvas__close-btn">
-                <button class="close-btn"><i class="fal fa-times"></i></button>
-            </div>
-            <div class="tpoffcanvas__logo">
-                <a href="index.html">
-                    <img src="{{asset('template/assets/img/logo/logo.png')}}" alt="">
-                </a>
-            </div>
-            <div class="tpoffcanvas__title">
-                <p>Tecza is the partner of choice for many of the world’s leading enterprises.
-                     We help businesses development.</p>
-            </div>
-            <div class="tp-main-menu-mobile d-xl-none"></div>
-            <div class="tpoffcanvas__contact-info">
-                <div class="tpoffcanvas__contact-title">
-                    <h5>Contact us</h5>
-                </div>
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-location-dot"></i>
-                        <a href="https://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank">Manchester 21, Zurich, CH</a>
-                    </li>
-                    <li>
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:teczainfo@mail.com"><span class="__cf_email__">teczainfo@mail.com</span></a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-phone-flip"></i>
-                        <a href="tel:+48555223224">(+00) 678 345 98568</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="tpoffcanvas__input">
-                <div class="tpoffcanvas__input-title">
-                    <h4>Get UPdate</h4>
-                </div>
-                <form action="#">
-                    <div class="p-relative">
-                        <input type="text" placeholder="Enter mail">
-                        <button>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </div>
-                </form>
-            </div>
-            <div class="tpoffcanvas__social">
-                <div class="social-icon">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="body-overlay"></div>
-    <!-- tp-offcanvus-area-end -->
-
-    <!-- header area start -->
-    <header class="tp-header-height">
-        <div class="tp-header-top-area tp-header-2-top-area d-none d-xl-block">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-8">
-                        <div class="tp-header-2-top-address">
-                            <span><img src="{{asset('template/assets/img/header/location.svg')}}" alt=""><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"> The queens walk, TSV 3456</a></span>
-                            <span><img src="{{asset('template/assets/img/header/message.svg')}}" alt=""> <a href="mailto:teczainfo@mail.com">teczaofficial@gmail.com</a></span>
-                        </div>
-                    </div>
-                    <div class="col-xl-4">
-                        <div class="tp-header-top-right">
-                            <span>Social Connect</span>
-                            <div class="tp-header-top-social">
-                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="header-sticky" class="tp-header-area tp-header-mobile-height p-relative">
-            <div class="container">
-                <div class="tp-header-2-wrapper p-relative">
-                    <div class="row align-items-center">
-                        <div class="col-xl-3 col-lg-4 col-md-4 col">
-                           <div class="tp-header-logo">
-                                <a href="{{asset('template/index.html')}}"><img src="{{asset('template/assets/img/logo/logo.png')}}" alt=""></a>
-                           </div>
-                        </div>
-                        <div class="col-xl-5 d-none d-xl-block">
-                            <div class="tp-header-main-menu tp-header-2-main-menu">
-                                <nav class="tp-main-menu-content">
-                                    <ul>
-                                        <li class="has-dropdown p-static"><a href="{{asset('template/index.html')}}">Home</a>
-                                            <div class="tp-submenu submenu submenu-2 has-homemenu">
-                                                <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-5">
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="{{asset('template/assets/img/menu/home1.jpg')}}" alt="">
-                                                            <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="{{asset('template/index.html')}}">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="{{asset('template/index-one-page.html')}}">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                <a href="{{asset('template/index.html')}}">Home 01</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="{{asset('template/assets/img/menu/home2.jpg')}}" alt="">
-                                                            <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="{{asset('template/index-2.html')}}">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="{{asset('template/index2-one-page.html')}}">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                <a href="{{asset('template/index-2.html')}}">Home 02</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="{{asset('template/assets/img/menu/home3.jpg')}}" alt="">
-                                                            <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="{{asset('template/index-3.html')}}">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="{{asset('template/index3-one-page.html')}}">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                <a href="{{asset('template/index-3.html')}}">Home 03</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="{{asset('template/assets/img/menu/home4.jpg')}}" alt="">
-                                                            <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="{{asset('template/index-4.html')}}">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="{{asset('template/index4-one-page.html')}}">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                <a href="{{asset('template/index-4.html')}}">Home 04</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="{{asset('template/assets/img/menu/home5.jpg')}}" alt="">
-                                                            <div class="homemenu-btn">
-                                                                <a class="menu-btn show-1" href="{{asset('template/index-5.html')}}">Multi Page</a>
-                                                                <a class="menu-btn show-2" href="{{asset('template/index5-one-page.html')}}">One Page</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                <a href="{{asset('template/index-5.html')}}">Home 05</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="has-dropdown"><a href="{{asset('template/index.html')}}">Pages</a>
-                                            <ul class="submenu tp-submenu">
-                                                <li><a href="{{asset('template/about.html')}}">About Us</a></li>
-                                                <li><a href="{{asset('template/team.html')}}">Our Team</a></li>
-                                                <li><a href="{{asset('template/team-details.html')}}">Team Details</a></li>
-                                                <li><a href="{{asset('template/testimonials.html')}}">Testimonials</a></li>
-                                                <li><a href="{{asset('template/pricing.html')}}">Pricing</a></li>
-                                                <li><a href="{{asset('template/portfolio.html')}}">Our Portfolio</a></li>
-                                                <li><a href="{{asset('template/portfolio-details.html')}}">Portfolio Details</a></li>
-                                                <li><a href="{{asset('template/faq.html')}}">Our Faq</a></li>
-                                                <li><a href="{{asset('template/error.html')}}">Error</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown"><a href="{{asset('template/service.html')}}">Services</a>
-                                            <ul class="submenu tp-submenu">
-                                                <li><a href="{{asset('template/service.html')}}">Our Service</a></li>
-                                                <li><a href="{{asset('template/service-details.html')}}">Service Details</a></li>
-                                            </ul>
-                                        </li>
-												<li class="has-dropdown"><a href="{{asset('template/blog.html')}}">Blog</a>
-                                            <ul class="submenu tp-submenu">
-                                                <li><a href="{{asset('template/blog.html')}}">Blog</a></li>
-                                                <li><a href="{{asset('template/blog-sideber.html')}}">Blog Sidebar</a></li>
-                                                <li><a href="{{asset('template/blog-details.html')}}">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown"><a href="{{asset('template/contact.html')}}">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-8 col-md-8 col">
-                            <div class="tp-header-right">
-    
-                                <!-- header search button -->
-                                <div class="tp-header-search search-box-outer d-none d-md-block">
-                                    <button><i class="flaticon-search"></i></button>
-                                </div>
-    
-                                <!-- header Shop button -->
-                                <div class="tp-header-shop d-none d-md-block p-relative">
-                                    <button><i class="flaticon-shopping-bag"></i></button>
-                                    <div class="minicart">
-                                        <div class="cart-content-wrap d-flex align-items-center justify-content-between">
-                                            <div class="cart-img-info d-flex align-items-center">
-                                                <div class="cart-thumb">
-                                                    <a href="{{asset('template/shop-details.html')}}"> <img src="{{asset('template/assets/img/shop/shop-1.jpg')}}" alt=""></a>
-                                                </div>
-                                                <div class="cart-content">
-                                                    <h5 class="cart-title"><a href="{{asset('template/shop-details.html')}}">Mug with pencil</a></h5>
-                                                    <span> $ 22.9 <del>$39.9</del></span>
-                                                </div>
-                                            </div>
-                                            <div class="cart-del-icon">
-                                                <span><i class="fa-light fa-trash-can"></i></span>
-                                            </div>
-                                        </div>
-                                        <div class="cart-content-wrap d-flex justify-content-between align-items-center">
-                                            <div class="cart-img-info  d-flex align-items-center">
-                                                <div class="cart-thumb">
-                                                    <a href="{{asset('template/shop-details.html')}}"> <img src="{{asset('template/assets/img/shop/shop-2.jpg')}}" alt=""></a>
-                                                </div>
-                                                <div class="cart-content">
-                                                    <h5 class="cart-title"><a href="{{asset('template/shop-details.html')}}">Student bag</a></h5>
-                                                    <span> $ 22.9 <del>$39.9 </del></span>
-                                                </div>
-                                            </div>
-                                            <div class="cart-del-icon">
-                                                <span><i class="fa-light fa-trash-can"></i></span>
-                                            </div>
-                                        </div>
-                                        <div class="cart-total-price d-flex align-items-center justify-content-between">
-                                            <span>Total:</span>
-                                            <span>$100.0</span>
-                                        </div>
-                                        <div class="minicart-btn">
-                                            <a class="cart-btn mb-10" href="{{asset('template/cart.html')}}"><span>Shopping Cart</span></a>
-                                            <a class="cart-btn cart-btn-black" href="{{asset('template/checkout.html')}}"><span>Checkout</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <!-- header button -->
-                                <div class="tp-header-button d-none d-lg-block">
-                                    <a class="tp-header-btn" rel="noreferrer" href="{{asset('template/contact.html')}}" target="_blank"><span>Get a Quote</span></a>
-                                </div>
-    
-                                <!-- header mobile button -->
-                                <div class="tp-header-mobile-button">
-                                    <button class="tp-header-mobile-btn tp-menu-bar d-xl-none"><i class="fa-solid fa-bars"></i></button>
-                                </div>
-    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header area end -->
+@push('after-css')
+@endpush
+@section('content')   
     <main>
         <!-- slider area start -->
         <section class="tp-slider-area fix">
@@ -1024,7 +687,7 @@
                 </div>
                 <div class="tp-service-solution tp-testimonial-2-solution  text-center mt-65">
                     <a class="tp-service-solution-btn tp-testimonial-2-btn" href="{{asset('template/service-details.html')}}">HURRAY !</a>
-                    <span class="tp-service-solution-text  tp-testimonial-2-solution-text">Let’s make something great work together. <a href="{{asset('template/service-details.html')}}">View all Reviews</a></span>
+                    <span class="tp-service-solution-text  tp-testimonial-2-solution-text">Let's make something great work together. <a href="{{asset('template/service-details.html')}}">View all Reviews</a></span>
                 </div>
             </div>
         </section>
@@ -1053,7 +716,7 @@
                                 <span class="tp-section-subtitle">About TECZA Company</span>
                                 <h3 class="tp-section-title">why people want to choose
                                     our tecza company</h3>
-                                <p class="tp-section-paragraph">Tecza is the partner of choice for many of the world’s leading the enterprises <br>
+                                <p class="tp-section-paragraph">Tecza is the partner of choice for many of the world's leading the enterprises <br>
                                      ME and technology challengers. We businesses and the most technology <br>
                                     elevate their value through custom software in your city area
                                     </p>
@@ -1266,7 +929,7 @@
                                                         <span class="tp-section-subtitle secondary">technology management</span>
                                                         <h3 class="tp-section-title white">we excute our ideas from the
                                                             start to finishing</h3>
-                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world’s leading enterprises <br>
+                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world's leading enterprises <br>
                                                             SME and technology challengers. We help businesses elevate express
                                                             </p>
                                                     </div>
@@ -1320,7 +983,7 @@
                                                         <span class="tp-section-subtitle secondary">technology management</span>
                                                         <h3 class="tp-section-title white">Our Ideas with Precision
                                                             from  Our tecza agency</h3>
-                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world’s leading enterprises <br>
+                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world's leading enterprises <br>
                                                             SME and technology challengers. We help businesses elevate express
                                                             </p>
                                                     </div>
@@ -1372,7 +1035,7 @@
                                                     <div class="tp-section-title-wrapper mb-45">
                                                         <span class="tp-section-subtitle secondary">technology management</span>
                                                         <h3 class="tp-section-title white">Bringing Ideas To Fruition From Your Busnness</h3>
-                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world’s leading enterprises <br>
+                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world's leading enterprises <br>
                                                             SME and technology challengers. We help businesses elevate express
                                                             </p>
                                                     </div>
@@ -1535,7 +1198,7 @@
                                 <a href="{{asset('template/blog-details.html')}}"><img src="{{asset('template/assets/img/blog/blog3.jpg')}}" alt=""></a>
                             </div>
                             <div class="tp-blog-2-content">
-                                <h4 class="tp-blog-title tp-blog-2-title"><a href="{{asset('template/blog-details.html')}}">We’re Leading in IT Technology
+                                <h4 class="tp-blog-title tp-blog-2-title"><a href="{{asset('template/blog-details.html')}}">We're Leading in IT Technology
                                     Market researcher</a></h4>
                                 <div class="tp-blog-2-content-bottom">
                                     <div class="tp-blog-2-button">
@@ -1553,128 +1216,8 @@
         </section>
         <!-- Blog area end -->
     </main>
-        <!-- footer area start -->
-        <section class="tp-footer-area tp-footer-2-area pt-130 fix">
-            <div class="tp-footer-bg-shape">
-                <img class="tp-footer-bg-shape-1" src="{{asset('template/assets/img/footer/footer-shape1.png')}}" alt="">
-                <img class="tp-footer-bg-shape-2" src="{{asset('template/assets/img/footer/footer-shape2.png')}}" alt="">
-            </div>
-            <div class="tp-footer-top pb-65">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50">
-                            <div class="tp-footer-widget wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                <div class="tp-footer-logo">
-                                    <a href="{{asset('template/index.html')}}"><img src="{{asset('template/assets/img/footer/footer-logo.png')}}" alt=""></a>
-                                </div>
-                                <div class="tp-footer-text">
-                                    <p>Righteous indignation and dislike men
-                                        are so beguiled & demoralized off <br>
-                                        the charms pleasure</p>
-                                </div>
-                                <div class="tp-footer-social">
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
-                                    <a href="#"><i class="flaticon-social"></i></a>
-                                    <a href="#"><i class="flaticon-pinterest"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50 ">
-                            <div class="tp-footer-widget tp-footer-two-item ml-70 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                                <h4 class="tp-footer-title">NAVIGATION</h4>
-                                <div class="tp-footer-list">
-                                    <ul>
-                                        <li><a href="{{asset('template/index.html')}}">Home</a></li>
-                                        <li><a href="{{asset('template/pricing.html')}}">Pricing Plan</a></li>
-                                        <li><a href="{{asset('template/about.html')}}">About US</a></li>
-                                        <li><a href="{{asset('template/service.html')}}">Our Services</a></li>
-                                        <li><a href="{{asset('template/portfolio.html')}}">Portfolio</a></li>
-                                        <li><a href="{{asset('template/contact.html')}}">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50">
-                            <div class="tp-footer-widget tp-footer-three-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                                <h4 class="tp-footer-title">NEED HELP?</h4>
-                                <div class="tp-footer-list">
-                                    <ul>
-                                        <li><a href="{{asset('template/index.html')}}">Support</a></li>
-                                        <li><a href="{{asset('template/pricing.html')}}">Privacy Policy</a></li>
-                                        <li><a href="{{asset('template/about.html')}}">Terms of Use</a></li>
-                                        <li><a href="{{asset('template/service.html')}}">Clients</a></li>
-                                        <li><a href="{{asset('template/portfolio.html')}}">Help</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50">
-                            <div class="tp-footer-widget tp-footer-four-item wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
-                                <h4 class="tp-footer-title">Latest post</h4>
-                                <div class="tp-footer-2-thumb-wrap">
-                                    <div class="tp-footer-2-thumb-item d-flex mb-30">
-                                        <a class="d-flex" href="{{asset('template/blog-details.html')}}">
-                                            <div class="tp-footer-2-thumb">
-                                                <img src="{{asset('template/assets/img/footer/footer-post1.jpg')}}" alt="">
-                                            </div>
-                                            <div class="tp-footer-2-thumb-date">
-                                                <span><i class="flaticon-clock"></i> 02 May, 2024</span>
-                                                <p>Duis turpis neque laoreet sit
-                                                    amet ipsum quis lacinia</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="tp-footer-2-thumb-item d-flex">
-                                        <a class="d-flex" href="{{asset('template/blog-details.html')}}">
-                                            <div class="tp-footer-2-thumb">
-                                                <img src="{{asset('template/assets/img/footer/footer-post2.jpg')}}" alt="">
-                                            </div>
-                                            <div class="tp-footer-2-thumb-date">
-                                                <span><i class="flaticon-clock"></i> 02 May, 2024</span>
-                                                <p>Duis turpis neque laoreet sit
-                                                    amet ipsum quis lacinia</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tp-footer-bottom">
-                <div class="container">
-                    <div class="row align-items-center tp-footer-bg  pt-30 pb-20">
-                        <div class="col-xl-12">
-                            <div class="tp-footer-copy-right text-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="{{asset('template/index.html')}}">Tecza</a> – 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- footer area end -->
+        
+@endsection
 
-    <!-- JS here -->
-    <script src="{{asset('template/assets/js/vendor/jquery.js')}}"></script>
-    <script src="{{asset('template/assets/js/vendor/waypoints.js')}}"></script>
-    <script src="{{asset('template/assets/js/bootstrap-bundle.js')}}"></script>
-    <script src="{{asset('template/assets/js/swiper-bundle.js')}}"></script>
-    <script src="{{asset('template/assets/js/slick.js')}}"></script>
-    <script src="{{asset('template/assets/js/range-slider.js')}}"></script>
-    <script src="{{asset('template/assets/js/magnific-popup.js')}}"></script>
-    <script src="{{asset('template/assets/js/nice-select.js')}}"></script>
-    <script src="{{asset('template/assets/js/purecounter.js')}}"></script>
-    <script src="{{asset('template/assets/js/wow.js')}}"></script>
-    <script src="{{asset('template/assets/js/isotope-pkgd.js')}}"></script>
-    <script src="{{asset('template/assets/js/imagesloaded-pkgd.js')}}"></script>
-    <script src="{{asset('template/assets/js/ajax-form.js')}}"></script>
-    <script src="{{asset('template/assets/js/slider-active.js')}}"></script>
-    <script src="{{asset('template/assets/js/main.js')}}"></script>
-</body>
-
-
-<!-- Mirrored from html.storebuild.shop/tecza-prv/tecza/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Jun 2025 05:01:15 GMT -->
-</html>
+@push('after-js')
+@endpush
