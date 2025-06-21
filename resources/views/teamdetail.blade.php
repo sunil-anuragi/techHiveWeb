@@ -7,17 +7,17 @@
 @section('content')
  <main>
         <!-- breadcrumb area start -->
-        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
             <div class="tp-breadcrumb-bg-shape">
-                <img class="tp-breadcrumb-bg-shape-1" src="assets/img/breadcrumb/breadcrumb-shape1.png" alt="">
-                <img class="tp-breadcrumb-bg-shape-2" src="assets/img/breadcrumb/breadcrumb-shape2.png" alt="">
+                <img class="tp-breadcrumb-bg-shape-1" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape1.png')}}" alt="">
+                <img class="tp-breadcrumb-bg-shape-2" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-5">
                         <div class="tp-breadcrumb-content">
                             <h2 class="tp-breadcrumb-title">team DETAILS</h2>
-                            <p class="tp-breadcrumb-body"><span><a class="home" href="index.html">Home <span class="spacing">/</span> </a></span>team DETAILS</p>
+                            <p class="tp-breadcrumb-body"><span><a class="home" href="{{ url('/') }}">Home <span class="spacing">/</span> </a></span>team DETAILS</p>
                         </div>
                     </div>
                 </div>
@@ -34,13 +34,13 @@
             <div class="tp-team-details-top"></div>
             <div class="tp-team-details-bottom">
                 <div class="container">
-                    <div class="row tp-team-details-bg pt-50 pb-20 mb-160" data-background="assets/img/team/team-details-bg.jpg">
+                    <div class="row tp-team-details-bg pt-50 pb-20 mb-160" data-background="{{asset('public/template/assets/img/team/team-details-bg.jpg')}}">
                         <div class="col-lg-10">
                             <div class="tp-team-details-information p-relative mb-40 wow fadeInUp">
                                 <div class="row">
                                     <div class="col-xl-8 col-lg-8 col-md-8">
                                         <div class="tp-team-details-thumb">
-                                            <img src="assets/img/team/team-details-img.jpg" alt="">
+                                            <img src="{{asset('public/template/assets/img/team/team-details-img.jpg')}}" alt="">
                                         </div>
                                         <div class="tp-team-details-text-shape">
                                             <h2 class="tp-team-details-text-shape-title">tecza</h2>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="row">
                         <div class="tp-team-details-contact-form wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <form id="contact-form" action="https://html.storebuild.shop/tecza-prv/tecza/assets/mail.php" method="POST" class="tp-team-details-contact-wrapper">
+                            <form id="contact-form" action="https://html.storebuild.shop/tecza-prv/tecza/{{asset('public/template/assets/mail.php" method="POST" class="tp-team-details-contact-wrapper">
                                 <div class="tp-team-details-box tp-contact-inner-page-box">
                                     <h3 class="tp-team-details-contact-title">Let’s Get in Touch</h3>
                                     <p class="tp-team-details-contact-paragraph">Your email address will not be published. Required fields are marked *</p>

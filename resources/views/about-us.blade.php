@@ -7,17 +7,17 @@
 @section('content')
     <main>
         <!-- breadcrumb area start -->
-        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
             <div class="tp-breadcrumb-bg-shape">
-                <img class="tp-breadcrumb-bg-shape-1" src="assets/img/breadcrumb/breadcrumb-shape1.png" alt="">
-                <img class="tp-breadcrumb-bg-shape-2" src="assets/img/breadcrumb/breadcrumb-shape2.png" alt="">
+                <img class="tp-breadcrumb-bg-shape-1" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape1.png')}}" alt="">
+                <img class="tp-breadcrumb-bg-shape-2" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-5">
                         <div class="tp-breadcrumb-content">
                             <h2 class="tp-breadcrumb-title">ABOUT US</h2>
-                            <p class="tp-breadcrumb-body"><span><a class="home" href="index.html">Home <span class="spacing">/</span> </a></span>ABOUT US</p>
+                            <p class="tp-breadcrumb-body"><span><a class="home" href="{{ url('/') }}">Home <span class="spacing">/</span> </a></span>ABOUT US</p>
                         </div>
                     </div>
                 </div>
@@ -31,9 +31,9 @@
                     <div class="col-xl-6 col-lg-6 col-md-8">
                         <div class="tp-about-3-left-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-about-3-left-thumb p-relative">
-                                <img class="main-img" src="assets/img/about/about-3-img.jpg" alt="">
-                                <img class="tp-about-3-left-thumb-shape" src="assets/img/about/about-3-img-shape1.jpg" alt="">
-                                <img class="tp-about-3-left-thumb-shape-2" src="assets/img/about/about-3-img-shape2.png" alt="">
+                                <img class="main-img" src="{{asset('public/template/assets/img/about/about-3-img.jpg')}}" alt="">
+                                <img class="tp-about-3-left-thumb-shape" src="{{asset('public/template/assets/img/about/about-3-img-shape1.jpg')}}" alt="">
+                                <img class="tp-about-3-left-thumb-shape-2" src="{{asset('public/template/assets/img/about/about-3-img-shape2.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="tp-about-3-feature-item d-flex mb-35">
                                 <div class="tp-about-3-feature-icon">
-                                    <img src="assets/img/about/about-3-feature.svg" alt="">
+                                    <img src="{{asset('public/template/assets/img/about/about-3-feature.svg')}}" alt="">
                                 </div>
                                 <div class="tp-about-3-feature-content">
                                     <h4>Awesome Solution</h4>
@@ -58,13 +58,13 @@
                             </div>
                             <div class="tp-about-3-feature-list mb-35">
                                 <ul>
-                                    <li><img src="assets/img/about/about-3-list-icon.svg" alt=""> Donec auctor magna nec orci hend</li>
-                                    <li><img src="assets/img/about/about-3-list-icon.svg" alt=""> Loreum ipsum dorl sit amt trest due vast</li>
+                                    <li><img src="{{asset('public/template/assets/img/about/about-3-list-icon.svg')}}" alt=""> Donec auctor magna nec orci hend</li>
+                                    <li><img src="{{asset('public/template/assets/img/about/about-3-list-icon.svg')}}" alt=""> Loreum ipsum dorl sit amt trest due vast</li>
                                 </ul>
                             </div>
                             <div class="tp-about-3-btn-box">
                                 <div class="tp-about-3-btn">
-                                    <a class="tp-btn" rel="noreferrer" href="about.html" target="_blank"><span>Discovere More</span></a>
+                                    <a class="tp-btn" rel="noreferrer" href="{{ route('aboutus') }}" target="_blank"><span>Discovere More</span></a>
                                 </div>
                                 <div class="tp-about-3-years">
                                     <h4 class="tp-counter"><span class="purecounter" data-purecounter-duration="2" data-purecounter-end="25">25</span></h4>
@@ -91,7 +91,7 @@
                                 <span><i class="flaticon-solution"></i></span>
                             </div>
                             <div class="tp-feature-4-content">
-                                <h4 class="tp-feature-4-title"><a href="service-details.html"> Business SOLUTION</a></h4>
+                                <h4 class="tp-feature-4-title"><a href="{{route('service/details')}}"> Business SOLUTION</a></h4>
                                 <p class="tp-feature-4-paragraph">Tecza is the partner of choice for world’s</p>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                 <span><i class="flaticon-seo"></i></span>
                             </div>
                             <div class="tp-feature-4-content">
-                                <h4 class="tp-feature-4-title"><a href="service-details.html">Growth Business Planing</a></h4>
+                                <h4 class="tp-feature-4-title"><a href="{{route('service/details')}}">Growth Business Planing</a></h4>
                                 <p class="tp-feature-4-paragraph">Tecza is the partner of choice for world’s</p>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 <span><i class="flaticon-gear"></i></span>
                             </div>
                             <div class="tp-feature-4-content">
-                                <h4 class="tp-feature-4-title"><a href="service-details.html">SEARCH ENGINE OPTIMIZE</a></h4>
+                                <h4 class="tp-feature-4-title"><a href="{{route('service/details')}}">SEARCH ENGINE OPTIMIZE</a></h4>
                                 <p class="tp-feature-4-paragraph">Tecza is the partner of choice for world’s</p>
                             </div>
                         </div>
@@ -127,8 +127,8 @@
         <!-- technology area start -->
         <section class="tp-technology-4-area pt-110 pb-90 p-relative z-index-1">
             <div class="tp-technology-4-shape">
-                <img class="tp-technology-4-shape-1" src="assets/img/technology/tecnology-4-shape1.png" alt="">
-                <img class="tp-technology-4-shape-2" src="assets/img/technology/tecnology-4-shape2.png" alt="">
+                <img class="tp-technology-4-shape-1" src="{{asset('public/template/assets/img/technology/tecnology-4-shape1.png')}}" alt="">
+                <img class="tp-technology-4-shape-2" src="{{asset('public/template/assets/img/technology/tecnology-4-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -212,12 +212,12 @@
                     <div class="col-xl-5">
                         <div class="tp-choose-us-5-left-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-choose-us-5-thumb p-relative">
-                                <img src="assets/img/choose-us/choose-us-5-img.jpg" alt="">
+                                <img src="{{asset('public/template/assets/img/choose-us/choose-us-5-img.jpg')}}" alt="">
                                 <div class="tp-about-4-play-icon tp-choose-us-5-play-icon">
                                     <a class="tp-about-4-popup-video tp-choose-us-5-popup-video popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fa-solid fa-play"></i></a>
                                 </div>
                                 <div class="tp-choose-us-5-thumb-shape">
-                                    <img src="assets/img/choose-us/choose-us-5-grow.jpg" alt="">
+                                    <img src="{{asset('public/template/assets/img/choose-us/choose-us-5-grow.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                                                 DEVELOPMENT</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('public/template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -257,7 +257,7 @@
                                                 IT OUTSOURCE</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('public/template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -271,7 +271,7 @@
                                                 INFORMATION MANAGE</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('public/template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -285,7 +285,7 @@
                                                 BUSINESS SYSTEMS</h4>
                                         </div>
                                         <div class="tp-choose-us-2-feature-shape">
-                                            <img src="assets/img/choose-us/choose-us-feature-shape.png" alt="">
+                                            <img src="{{asset('public/template/assets/img/choose-us/choose-us-feature-shape.png')}}" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -299,11 +299,11 @@
 
 
         <!-- call-to-action area start -->
-        <section class="tp-cta-area p-relative pt-125 pb-150" data-background="assets/img/cta/cta-bg.jpg">
+        <section class="tp-cta-area p-relative pt-125 pb-150" data-background="{{asset('public/template/assets/img/cta/cta-bg.jpg')}}">
             <div class="tp-cta-bg-overlay"></div>
             <div class="tp-cta-bg-shape">
-                <img class="tp-cta-bg-shape-1" src="assets/img/cta/cta-bg-shape1.png" alt="">
-                <img class="tp-cta-bg-shape-2" src="assets/img/cta/cta-bg-shape2.png" alt="">
+                <img class="tp-cta-bg-shape-1" src="{{asset('public/template/assets/img/cta/cta-bg-shape1.png')}}" alt="">
+                <img class="tp-cta-bg-shape-2" src="{{asset('public/template/assets/img/cta/cta-bg-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -312,7 +312,7 @@
                             <h2 class="tp-cta-section-title">Together We can Bring More
                                 Creativity the World</h2>
                             <div class="tp-cta-btn">
-                                <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>let’s get started</span></a>
+                                <a class="tp-btn" rel="noreferrer" href="{{route('contact')}}" target="_blank"><span>let’s get started</span></a>
                             </div>
                         </div>
                     </div>
@@ -353,7 +353,7 @@
                                     <!-- slider item 1 -->
                                     <div class="tp-team-3-wrapper swiper-slide wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                         <div class="tp-team-3-thumb p-relative">
-                                            <a href="team-details.html"><img src="assets/img/team/team-3-img1.jpg" alt=""></a>
+                                            <a href="{{route('teamdetail')}}"><img src="{{asset('public/template/assets/img/team/team-3-img1.jpg')}}" alt=""></a>
                                             <div class="tp-team-3-social">
                                                 <div class="tp-team-3-btn">
                                                     <button><i class="flaticon-share"></i></button>
@@ -368,7 +368,7 @@
                                             </div>
                                         </div>
                                         <div class="tp-team-3-content">
-                                            <h4 class="tp-team-3-title"><a href="team-details.html">Charli Puthingah</a></h4>
+                                            <h4 class="tp-team-3-title"><a href="{{route('teamdetail')}}">Charli Puthingah</a></h4>
                                             <p class="tp-team-3-paragarph">Designer</p>
                                         </div>
                                     </div>
@@ -376,7 +376,7 @@
                                     <!-- slider item 2 -->
                                     <div class="tp-team-3-wrapper swiper-slide wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                                         <div class="tp-team-3-thumb p-relative">
-                                            <a href="team-details.html"><img src="assets/img/team/team-3-img2.jpg" alt=""></a>
+                                            <a href="{{route('teamdetail')}}"><img src="{{asset('public/template/assets/img/team/team-3-img2.jpg')}}" alt=""></a>
                                             <div class="tp-team-3-social">
                                                 <div class="tp-team-3-btn">
                                                     <button><i class="flaticon-share"></i></button>
@@ -391,7 +391,7 @@
                                             </div>
                                         </div>
                                         <div class="tp-team-3-content">
-                                            <h4 class="tp-team-3-title"><a href="team-details.html">Nilima vadai</a></h4>
+                                            <h4 class="tp-team-3-title"><a href="{{route('teamdetail')}}">Nilima vadai</a></h4>
                                             <p class="tp-team-3-paragarph">Developer</p>
                                         </div>
                                     </div>
@@ -399,7 +399,7 @@
                                     <!-- slider item 3 -->
                                     <div class="tp-team-3-wrapper swiper-slide wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                                         <div class="tp-team-3-thumb p-relative">
-                                            <a href="team-details.html"><img src="assets/img/team/team-3-img3.jpg" alt=""></a>
+                                            <a href="{{route('teamdetail')}}"><img src="{{asset('public/template/assets/img/team/team-3-img3.jpg')}}" alt=""></a>
                                             <div class="tp-team-3-social">
                                                 <div class="tp-team-3-btn">
                                                     <button><i class="flaticon-share"></i></button>
@@ -414,7 +414,7 @@
                                             </div>
                                         </div>
                                         <div class="tp-team-3-content">
-                                            <h4 class="tp-team-3-title"><a href="team-details.html">Kevin jonshon</a></h4>
+                                            <h4 class="tp-team-3-title"><a href="{{route('teamdetail')}}">Kevin jonshon</a></h4>
                                             <p class="tp-team-3-paragarph">Manager</p>
                                         </div>
                                     </div>
@@ -432,8 +432,8 @@
         <!-- subscribe area start -->
         <section class="tp-subscribe-5-bottom-area primary-bg pt-60 pb-45 p-relative z-index-1">
             <div class="tp-subscribe-5-bottom-bg-shape">
-                <img class="tp-subscribe-5-bottom-bg-shape-1" src="assets/img/subscribe/subscribe-5-bg-shape.png" alt="">
-                <img class="tp-subscribe-5-bottom-bg-shape-2" src="assets/img/subscribe/subscribe-3-bottom-shape3.png" alt="">
+                <img class="tp-subscribe-5-bottom-bg-shape-1" src="{{asset('public/template/assets/img/subscribe/subscribe-5-bg-shape.png')}}" alt="">
+                <img class="tp-subscribe-5-bottom-bg-shape-2" src="{{asset('public/template/assets/img/subscribe/subscribe-3-bottom-shape3.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -451,7 +451,7 @@
                     <div class="col-xl-3 col-lg-3">
                         <div class="tp-subscribe-btn tp-subscribe-5-btn wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-cta-btn mt-20">
-                                <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>GET YOUR SOLUTION</span></a>
+                                <a class="tp-btn" rel="noreferrer" href="{{route('contact')}}" target="_blank"><span>GET YOUR SOLUTION</span></a>
                             </div>
                         </div>
                     </div>

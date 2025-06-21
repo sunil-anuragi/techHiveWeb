@@ -8,10 +8,10 @@
 
     <main>
         <!-- breadcrumb area start -->
-        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
             <div class="tp-breadcrumb-bg-shape">
-                <img class="tp-breadcrumb-bg-shape-1" src="assets/img/breadcrumb/breadcrumb-shape1.png" alt="">
-                <img class="tp-breadcrumb-bg-shape-2" src="assets/img/breadcrumb/breadcrumb-shape2.png" alt="">
+                <img class="tp-breadcrumb-bg-shape-1" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape1.png')}}" alt="">
+                <img class="tp-breadcrumb-bg-shape-2" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -41,7 +41,7 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-6">
                         <div class="tp-contact-page-thumb wow fadeInUp">
-                            <img src="assets/img/contact/contact-us-img.jpg" alt="">
+                            <img src="{{asset('public/template/assets/img/contact/contact-us-img.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="tp-postbox-contact-reply text-center">
                         <h3 class="tp-postbox-contact-title two pb-45 wow fadeInUp">Let’s Get in Touch</h3>
-                        <form class="wow fadeInUp" action="https://html.storebuild.shop/tecza-prv/tecza/assets/mail.php" method="POST">
+                        <form class="wow fadeInUp" action="https://html.storebuild.shop/tecza-prv/tecza/{{asset('public/template/assets/mail.php" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="tp-postbox-contact-input">

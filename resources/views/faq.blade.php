@@ -8,17 +8,17 @@
  
  <main>
         <!-- breadcrumb area start -->
-        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
             <div class="tp-breadcrumb-bg-shape">
-                <img class="tp-breadcrumb-bg-shape-1" src="assets/img/breadcrumb/breadcrumb-shape1.png" alt="">
-                <img class="tp-breadcrumb-bg-shape-2" src="assets/img/breadcrumb/breadcrumb-shape2.png" alt="">
+                <img class="tp-breadcrumb-bg-shape-1" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape1.png')}}" alt="">
+                <img class="tp-breadcrumb-bg-shape-2" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-5">
                         <div class="tp-breadcrumb-content">
                             <h2 class="tp-breadcrumb-title">OUR FAQ’S</h2>
-                            <p class="tp-breadcrumb-body"><span><a class="home" href="index.html">Home <span class="spacing">/</span> </a></span>OUR FAQ’S</p>
+                            <p class="tp-breadcrumb-body"><span><a class="home" href="{{ url('/') }}">Home <span class="spacing">/</span> </a></span>OUR FAQ’S</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                 <div class="row gx-0">
                     <div class="col-xl-6">
                         <div class="tp-faq-inner-thumb wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <img src="assets/img/faq/faq-inner-thumb.jpg" alt="">
+                            <img src="{{asset('public/template/assets/img/faq/faq-inner-thumb.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-1">
@@ -161,8 +161,8 @@
         <!-- subscribe area start -->
         <section class="tp-subscribe-5-bottom-area primary-bg pt-60 pb-45 p-relative z-index-1">
             <div class="tp-subscribe-5-bottom-bg-shape">
-                <img class="tp-subscribe-5-bottom-bg-shape-1" src="assets/img/subscribe/subscribe-5-bg-shape.png" alt="">
-                <img class="tp-subscribe-5-bottom-bg-shape-2" src="assets/img/subscribe/subscribe-3-bottom-shape3.png" alt="">
+                <img class="tp-subscribe-5-bottom-bg-shape-1" src="{{asset('public/template/assets/img/subscribe/subscribe-5-bg-shape.png')}}" alt="">
+                <img class="tp-subscribe-5-bottom-bg-shape-2" src="{{asset('public/template/assets/img/subscribe/subscribe-3-bottom-shape3.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -180,7 +180,7 @@
                     <div class="col-xl-3 col-lg-3">
                         <div class="tp-subscribe-btn tp-subscribe-5-btn wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-cta-btn mt-20">
-                                <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>GET YOUR SOLUTION</span></a>
+                                <a class="tp-btn" rel="noreferrer" href="{{route('contact')}}" target="_blank"><span>GET YOUR SOLUTION</span></a>
                             </div>
                         </div>
                     </div>

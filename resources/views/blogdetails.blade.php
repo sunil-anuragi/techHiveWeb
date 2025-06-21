@@ -8,27 +8,23 @@
 
     <main>
         <!-- breadcrumb area start -->
-        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
             <div class="tp-breadcrumb-bg-shape">
-                <img class="tp-breadcrumb-bg-shape-1" src="assets/img/breadcrumb/breadcrumb-shape1.png" alt="">
-                <img class="tp-breadcrumb-bg-shape-2" src="assets/img/breadcrumb/breadcrumb-shape2.png" alt="">
+                <img class="tp-breadcrumb-bg-shape-1" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape1.png')}}" alt="">
+                <img class="tp-breadcrumb-bg-shape-2" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-5">
                         <div class="tp-breadcrumb-content">
                             <h2 class="tp-breadcrumb-title">blog details</h2>
-                            <p class="tp-breadcrumb-body"><span><a class="home" href="index.html">Home <span class="spacing">/</span> </a></span>blog details</p>
+                            <p class="tp-breadcrumb-body"><span><a class="home" href="{{ url('/') }}">Home <span class="spacing">/</span> </a></span>blog details</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- breadcrumb area end -->
-
-
-
-
          <!-- postbox area start -->
          <section class="tp-postbox-area pt-120 pb-120">
             <div class="container">
@@ -48,12 +44,12 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="tp-postbox-thumb wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                        <img src="assets/img/blog/postbox-thumb1.jpg" alt="">
+                                        <img src="{{asset('public/template/assets/img/blog/postbox-thumb1.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="tp-postbox-thumb wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                        <img src="assets/img/blog/postbox-thumb2.jpg" alt="">
+                                        <img src="{{asset('public/template/assets/img/blog/postbox-thumb2.jpg')}}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +60,7 @@
                             </div>
                             <div class="tp-postbox-blog-code mb-80 text-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                 <div class="tp-postbox-blog-code-icon mb-20">
-                                    <img src="assets/img/blog/blog-code.svg" alt="">
+                                    <img src="{{asset('public/template/assets/img/blog/blog-code.svg')}}" alt="">
                                 </div>
                                 <div class="tp-postbox-blog-code-content">
                                     <h4 class="tp-postbox-blog-code-title">Diam luctus nostra dapibus varius et semper semper rutrum ad risus felis
@@ -94,7 +90,7 @@
                                 <div class="tp-postbox-comment-box border-mr p-relative">
                                     <div class="tp-postbox-comment-box-inner">
                                         <div class="tp-postbox-comment-avater wow fadeInUp">
-                                            <img src="assets/img/blog/blog-details-4.png" alt="">
+                                            <img src="{{asset('public/template/assets/img/blog/blog-details-4.png')}}" alt="">
                                         </div>
                                         <div class="tp-postbox-comment-content wow fadeInUp">
                                             <div class="tp-postbox-comment-top">
@@ -169,11 +165,11 @@
                                     <div class="sidebar__post">
                                         <div class="rc__post mb-10 d-flex align-items-center wow fadeInUp">
                                             <div class="rc__post-thumb mr-30">
-                                                <a href="blog-details.html"><img src="assets/img/blog/details-sm-1-1.jpg" alt=""></a>
+                                                <a href="{{route('blog/details')}}"><img src="{{asset('public/template/assets/img/blog/details-sm-1-1.jpg')}}" alt=""></a>
                                             </div>
                                             <div class="rc__post-content">
                                                 <h3 class="rc__post-title">
-                                                    <a href="blog-details.html">Keep Your Business Safe
+                                                    <a href="{{route('blog/details')}}">Keep Your Business Safe
                                                         Ensure High</a>
                                                 </h3>
                                                 <div class="rc__meta">
@@ -184,11 +180,11 @@
                                         </div>
                                         <div class="rc__post mb-10 d-flex align-items-center active wow fadeInUp">
                                             <div class="rc__post-thumb mr-30">
-                                                <a href="blog-details.html"><img src="assets/img/blog/details-sm-1-2.jpg" alt=""></a>
+                                                <a href="{{route('blog/details')}}"><img src="{{asset('public/template/assets/img/blog/details-sm-1-2.jpg')}}" alt=""></a>
                                             </div>
                                             <div class="rc__post-content">
                                                 <h3 class="rc__post-title">
-                                                    <a href="blog-details.html">We’ve Been a Strategy
+                                                    <a href="{{route('blog/details')}}">We’ve Been a Strategy
                                                         Thought Leader for Nearly</a>
                                                 </h3>
                                                 <div class="rc__meta">
@@ -199,11 +195,11 @@
                                         </div>
                                         <div class="rc__post d-flex align-items-center wow fadeInUp">
                                             <div class="rc__post-thumb mr-30">
-                                                <a href="blog-details.html"><img src="assets/img/blog/details-sm-1-3.jpg" alt=""></a>
+                                                <a href="{{route('blog/details')}}"><img src="{{asset('public/template/assets/img/blog/details-sm-1-3.jpg')}}" alt=""></a>
                                             </div>
                                             <div class="rc__post-content">
                                                 <h3 class="rc__post-title">
-                                                    <a href="blog-details.html">This Week’s Top Stories
+                                                    <a href="{{route('blog/details')}}">This Week’s Top Stories
                                                         About It</a>
                                                 </h3>
                                                 <div class="rc__meta">
@@ -219,12 +215,12 @@
                                 <div class="tp-service-details-box mb-30">
                                     <h4 class="tp-service-details-box-title">our services</h4>
                                     <ul>
-                                        <li><a href="service-details.html">Data Visualization <span><i class="flaticon-next"></i></span> </a></li>
-                                        <li><a class="active" href="service-details.html">Product Development <span><i class="flaticon-next"></i></span></a></li>
-                                        <li><a href="service-details.html">Security System <span><i class="flaticon-next"></i></span></a></li>
-                                        <li><a href="service-details.html">UI/UX Designing <span><i class="flaticon-next"></i></span> </a></li>
-                                        <li><a href="service-details.html">Digital Marketing <span><i class="flaticon-next"></i></span></a></li>
-                                        <li><a href="service-details.html">Data Analytics <span><i class="flaticon-next"></i></span></a></li>
+                                        <li><a href="{{route('service/details')}}">Data Visualization <span><i class="flaticon-next"></i></span> </a></li>
+                                        <li><a class="active" href="{{route('service/details')}}">Product Development <span><i class="flaticon-next"></i></span></a></li>
+                                        <li><a href="{{route('service/details')}}">Security System <span><i class="flaticon-next"></i></span></a></li>
+                                        <li><a href="{{route('service/details')}}">UI/UX Designing <span><i class="flaticon-next"></i></span> </a></li>
+                                        <li><a href="{{route('service/details')}}">Digital Marketing <span><i class="flaticon-next"></i></span></a></li>
+                                        <li><a href="{{route('service/details')}}">Data Analytics <span><i class="flaticon-next"></i></span></a></li>
                                     </ul>
                                 </div>
                             </div>

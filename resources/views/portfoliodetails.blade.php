@@ -7,17 +7,17 @@
 @section('content')
     <main>
         <!-- breadcrumb area start -->
-        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+        <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
             <div class="tp-breadcrumb-bg-shape">
-                <img class="tp-breadcrumb-bg-shape-1" src="assets/img/breadcrumb/breadcrumb-shape1.png" alt="">
-                <img class="tp-breadcrumb-bg-shape-2" src="assets/img/breadcrumb/breadcrumb-shape2.png" alt="">
+                <img class="tp-breadcrumb-bg-shape-1" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape1.png')}}" alt="">
+                <img class="tp-breadcrumb-bg-shape-2" src="{{asset('public/template/assets/img/breadcrumb/breadcrumb-shape2.png')}}" alt="">
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-5">
                         <div class="tp-breadcrumb-content">
                             <h2 class="tp-breadcrumb-title">portfolio details</h2>
-                            <p class="tp-breadcrumb-body"><span><a class="home" href="index.html">Home <span class="spacing">/</span> </a></span>portfolio details</p>
+                            <p class="tp-breadcrumb-body"><span><a class="home" href="{{ url('/') }}">Home <span class="spacing">/</span> </a></span>portfolio details</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="row mb-40">
                     <div class="col-xl-8 col-lg-8">
                         <div class="tp-portfolio-details-thumb wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <img src="assets/img/portfolio/portfolio-details-img.jpg" alt="">
+                            <img src="{{asset('public/template/assets/img/portfolio/portfolio-details-img.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4">
@@ -75,7 +75,7 @@
                             form to learn more about your company and become a lead.</p>
                         <div class="tp-portfolio-details-center-quete-box d-flex mt-50">
                             <div class="tp-portfolio-details-center-quete-icon mr-20">
-                                <span><img src="assets/img/portfolio/portfolio-details-icon.svg" alt=""></span>
+                                <span><img src="{{asset('public/template/assets/img/portfolio/portfolio-details-icon.svg')}}" alt=""></span>
                             </div>
                             <div class="tp-portfolio-details-center-quete-title">
                                 <h4 class="tp-portfolio-details-center-quete-title">“I cannot give you the formula for success, but I can give you the formula for failure. <br>
@@ -87,12 +87,12 @@
                 <div class="row mb-40 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                     <div class="col-xl-6 col-lg-6">
                         <div class="tp-portfolio-details-center-thumb">
-                            <img src="assets/img/portfolio/portfolio-details-thumb1.jpg" alt="">
+                            <img src="{{asset('public/template/assets/img/portfolio/portfolio-details-thumb1.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="tp-portfolio-details-center-thumb">
-                            <img src="assets/img/portfolio/portfolio-details-thum2.jpg" alt="">
+                            <img src="{{asset('public/template/assets/img/portfolio/portfolio-details-thum2.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                     </div>
                     <div class="col-xl-2 col-lg-2 col-md-2 tp-portfolio-details-bottom-menu">
                         <div class="tp-portfolio-details-bottom-icon text-center wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                            <button class="tp-menu-bar"><img src="assets/img/portfolio/portfolio-details-menu-icon.svg" alt=""></button>
+                            <button class="tp-menu-bar"><img src="{{asset('public/template/assets/img/portfolio/portfolio-details-menu-icon.svg')}}" alt=""></button>
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-5 col-md-5">
@@ -154,15 +154,15 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-project-5-wrapper p-relative fix mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-project-5-img">
-                                <img src="assets/img/project/project-img1.jpg" alt="">
+                                <img src="{{asset('public/template/assets/img/project/project-img1.jpg')}}" alt="">
                             </div>
                             <div class="tp-project-5-content-wrap d-flex">
                                 <div class="tp-project-5-arrow-btn">
-                                    <a class="tp-project-5-arrow-btn-right" href="portfolio-details.html"><i class="flaticon-next"></i></a>
+                                    <a class="tp-project-5-arrow-btn-right" href="{{route('portfoliodetails')}}"><i class="flaticon-next"></i></a>
                                 </div>
                                 <div class="tp-project-5-content">
                                     <span class="tp-project-5-content-subtitle">Building</span>
-                                    <h4 class="tp-project-5-content-title"><a href="portfolio-details.html">Social media app</a></h4>
+                                    <h4 class="tp-project-5-content-title"><a href="{{route('portfoliodetails')}}">Social media app</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -170,15 +170,15 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-project-5-wrapper p-relative fix mb-30 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-project-5-img">
-                                <img src="assets/img/project/project-img2.jpg" alt="">
+                                <img src="{{asset('public/template/assets/img/project/project-img2.jpg')}}" alt="">
                             </div>
                             <div class="tp-project-5-content-wrap d-flex">
                                 <div class="tp-project-5-arrow-btn">
-                                    <a class="tp-project-5-arrow-btn-right" href="portfolio-details.html"><i class="flaticon-next"></i></a>
+                                    <a class="tp-project-5-arrow-btn-right" href="{{route('portfoliodetails')}}"><i class="flaticon-next"></i></a>
                                 </div>
                                 <div class="tp-project-5-content">
                                     <span class="tp-project-5-content-subtitle">Solution</span>
-                                    <h4 class="tp-project-5-content-title"><a href="portfolio-details.html">information manage</a></h4>
+                                    <h4 class="tp-project-5-content-title"><a href="{{route('portfoliodetails')}}">information manage</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -186,15 +186,15 @@
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-project-5-wrapper p-relative fix mb-30 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-project-5-img">
-                                <img src="assets/img/project/project-img3.jpg" alt="">
+                                <img src="{{asset('public/template/assets/img/project/project-img3.jpg')}}" alt="">
                             </div>
                             <div class="tp-project-5-content-wrap d-flex">
                                 <div class="tp-project-5-arrow-btn">
-                                    <a class="tp-project-5-arrow-btn-right" href="portfolio-details.html"><i class="flaticon-next"></i></a>
+                                    <a class="tp-project-5-arrow-btn-right" href="{{route('portfoliodetails')}}"><i class="flaticon-next"></i></a>
                                 </div>
                                 <div class="tp-project-5-content">
                                     <span class="tp-project-5-content-subtitle">Building</span>
-                                    <h4 class="tp-project-5-content-title"><a href="portfolio-details.html">Data Integration</a></h4>
+                                    <h4 class="tp-project-5-content-title"><a href="{{route('portfoliodetails')}}">Data Integration</a></h4>
                                 </div>
                             </div>
                         </div>
