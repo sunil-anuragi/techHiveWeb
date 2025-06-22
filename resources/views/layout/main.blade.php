@@ -9,7 +9,7 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport">
 		<meta name="description" content="">
 		 <!-- Place favicon.ico in the root directory -->
-		<link rel="shortcut icon" type="image/x-icon" href="{{asset('public/template/assets/img/logo/favicons.png')}}">
+		<link rel="shortcut icon" type="image/x-icon" href="{{asset('public/template/assets/img/logo/logo-2.jpeg')}}">
 
 		<!-- CSS here -->
 		<link rel="stylesheet" href="{{asset('public/template/assets/css/bootstrap.css')}}">
