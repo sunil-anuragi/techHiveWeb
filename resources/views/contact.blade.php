@@ -25,9 +25,6 @@
             </div>
         </section>
         <!-- breadcrumb area end -->
-
-
-
         <!-- conatct area start -->
         <section class="tp-contact-area pt-120">
             <div class="container">
@@ -48,23 +45,23 @@
                         <div class="tp-contact-page-wrapper ml-80 wow fadeInUp">
                             <div class="tp-contact-page-content mb-25">
                                 <h4 class="tp-contact-page-title">kEEP IN TOUCH</h4>
-                                <a class="tp-contact-page-paragrap" href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z">401 Central Park, 24th Floor, <br>Orchard View, London</a>
+                                <a class="tp-contact-page-paragrap" href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z">Althan surat</a>
                             </div>
                             <div class="tp-contact-page-content mb-25">
                                 <h4 class="tp-contact-page-title">free customer care</h4>
-                                <a class="tp-contact-page-paragrap" href="tel:888021562546">+888 02156 2546</a>
-                                <a class="tp-contact-page-paragrap" href="tel:999235623164">+999 23562 3164</a>
+                                <a class="tp-contact-page-paragrap" href="tel:888021562546">9824072880</a>
+                                <a class="tp-contact-page-paragrap" href="tel:999235623164">7567329956 </a>
                             </div>
                             <div class="tp-contact-page-content mb-35">
                                 <h4 class="tp-contact-page-title">need live support</h4>
-                                <a class="tp-contact-page-paragrap" href="mailto:teczaofficial@mail.com">teczaofficial@mail.com</a>
-                                <a class="tp-contact-page-paragrap" href="mailto:teczainfo@mail.com">teczainfo@mail.com</a>
+                                <a class="tp-contact-page-paragrap" href="mailto:teczaofficial@mail.com">techhive234@gmail.com</a>
+                                <a class="tp-contact-page-paragrap" href="mailto:teczainfo@mail.com">techhive234@gmail.com</a>
                             </div>
                             <div class="tp-contact-page-content d-flex">
                                 <p class="tp-contact-page-paragrap opacity-100">Connect On :</p>
                                 <div class="tp-contact-page-social">
-                                    <a href="#"><i class="flaticon-facebook"></i></a>
-                                    <a href="#"><i class="flaticon-instagram"></i></a>
+                                    <a href="https://www.facebook.com/share/14FsDYDWWge/"><i class="flaticon-facebook"></i></a>
+                                    <a href="https://www.instagram.com/tech_hive__?igsh=MW0xY2hwNDI4dWw4Mw=="><i class="flaticon-instagram"></i></a>
                                     <a href="#"><i class="flaticon-social"></i></a>
                                     <a href="#"><i class="flaticon-pinterest"></i></a>
                                 </div>
