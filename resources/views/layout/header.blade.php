@@ -31,7 +31,6 @@
         </form>
     </div>
     <!-- Start Search Popup Section -->
-
     <!-- tp-offcanvus-area-start -->
     <div class="tpoffcanvas-area">
         <div class="tpoffcanvas">
@@ -92,7 +91,6 @@
     </div>
     <div class="body-overlay"></div>
     <!-- tp-offcanvus-area-end -->
-
     <!-- header area start -->
     <header class="tp-header-height">
         <div class="tp-header-top-area tp-header-2-top-area d-none d-xl-block">

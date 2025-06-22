@@ -30,6 +30,7 @@
 		@include('layout.footer')
 		
 	<!-- JS here -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="{{asset('public/template/assets/js/vendor/jquery.js')}}"></script>
     <script src="{{asset('public/template/assets/js/vendor/waypoints.js')}}"></script>
     <script src="{{asset('public/template/assets/js/bootstrap-bundle.js')}}"></script>

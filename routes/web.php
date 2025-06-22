@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +34,8 @@ Route::get('/service/details', [App\Http\Controllers\CommanController::class, 's
 Route::get('/blog', [App\Http\Controllers\CommanController::class, 'blog'])->name('blog');
 Route::get('/blog/sideber', [App\Http\Controllers\CommanController::class, 'blogSideber'])->name('blog/sideber');
 Route::get('/blog/details', [App\Http\Controllers\CommanController::class, 'blogDetails'])->name('blog/details');
+
+//contact
+Route::post('/submit-contact', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.store');
+
 
