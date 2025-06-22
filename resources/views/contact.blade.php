@@ -6,6 +6,16 @@
 @endpush
 @section('content')
 
+<style>
+    .tp-postbox-contact-input .error-message {
+        text-align: left !important;
+        display: block;
+        margin-top: 4px;
+        font-size: 14px;
+        color: red;
+    }
+</style>
+
     <main>
         <!-- breadcrumb area start -->
         <section class="tp-breadcrumb-area p-relative z-index-1" data-background="{{asset('public/template/assets/img/breadcrumb/breadcrumb-bg.jpg')}}">
