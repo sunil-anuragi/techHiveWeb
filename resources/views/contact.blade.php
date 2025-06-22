@@ -18,7 +18,7 @@
                     <div class="col-xl-5">
                         <div class="tp-breadcrumb-content">
                             <h2 class="tp-breadcrumb-title">contact us</h2>
-                            <p class="tp-breadcrumb-body"><span><a class="home" href="index.html">Home <span class="spacing">/</span> </a></span>contact us</p>
+                            <p class="tp-breadcrumb-body"><span><a class="home" href="{{url('/')}}">Home <span class="spacing">/</span> </a></span>contact us</p>
                         </div>
                     </div>
                 </div>
