@@ -135,11 +135,20 @@
              <div class="tp-header-2-wrapper p-relative">
                  <div class="row align-items-center">
                      <div class="col-xl-3 col-lg-4 col-md-4 col">
-                         <div class="tp-header-logo">
+                         <div class="tp-header-logo" style="display: flex; align-items: center; gap: 0.5px;">
                              <a href="{{ url('/') }}"><img
                                      style="width: 100px !important; height: 100px !important; max-width: 100%; max-height: 100%;"
                                      src="{{ asset('public/template/assets/img/logo/logo-2.jpeg') }}"
                                      alt=""></a>
+                             <span
+                                 style="
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    background: linear-gradient(to right, #8c52ff, #5ce1e6); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;">TechHive</span>
                          </div>
                      </div>
                      <div class="col-xl-5 d-none d-xl-block">
@@ -147,31 +156,35 @@
                              <nav class="tp-main-menu-content">
                                  <ul>
                                      <li class="has-dropdown p-static"><a href="{{ url('/') }}">Home</a></li>
+
                                      <li class="has-dropdown"><a href="#">Pages</a>
                                          <ul class="submenu tp-submenu">
                                              <li><a href="{{ route('aboutus') }}">About Us</a></li>
                                              <li><a href="{{ route('team') }}">Team</a></li>
-                                             <li><a href="{{ route('teamdetail') }}">Team Details</a></li>
                                              <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
-                                             <li><a href="{{ route('pricing') }}">Pricing</a></li>
                                              <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                                             <li><a href="{{ route('portfoliodetails') }}">Portfolio Details</a></li>
+
                                              <li><a href="{{ route('faq') }}">Faq</a></li>
                                          </ul>
                                      </li>
-                                     <li class="has-dropdown"><a href="{{ route('service') }}">Services</a>
+                                     <li class="has-dropdown p-static"><a href="{{ route('service') }}">Services</a>
+                                     </li>
+
+                                     {{-- <li class="has-dropdown"><a href="{{ route('service') }}">Services</a>
                                          <ul class="submenu tp-submenu">
                                              <li><a href="{{ route('service') }}">Our Service</a></li>
                                              <li><a href="{{ route('service/details') }}">Service Details</a></li>
                                          </ul>
-                                     </li>
-                                     <li class="has-dropdown"><a href="{{ route('blog') }}">Blog</a>
+                                     </li> --}}
+
+                                     <li class="has-dropdown p-static"><a href="{{ route('blog') }}">Blog</a></li>
+
+                                     {{-- <li class="has-dropdown"><a href="{{ route('blog') }}">Blog</a>
                                          <ul class="submenu tp-submenu">
                                              <li><a href="{{ route('blog') }}">Blog</a></li>
-                                             <li><a href="{{ route('blog/sideber') }}">Blog Sidebar</a></li>
                                              <li><a href="{{ route('blog/details') }}">Blog Details</a></li>
                                          </ul>
-                                     </li>
+                                     </li> --}}
                                      <li class="has-dropdown"><a href="{{ route('contact') }}">Contact</a></li>
                                  </ul>
                              </nav>
@@ -181,9 +194,9 @@
                          <div class="tp-header-right">
 
                              <!-- header search button -->
-                             <div class="tp-header-search search-box-outer d-none d-md-block">
+                             {{-- <div class="tp-header-search search-box-outer d-none d-md-block">
                                  <button><i class="flaticon-search"></i></button>
-                             </div>
+                             </div> --}}
 
                              <!-- header Shop button -->
                              <!-- <div class="tp-header-shop d-none d-md-block p-relative">

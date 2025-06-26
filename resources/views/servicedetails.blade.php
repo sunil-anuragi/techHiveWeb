@@ -60,7 +60,7 @@
                                     </div>
                                     <div class="tp-service-details-call-number ml-20">
                                         <span>You Can Call Anytime</span>
-                                        <a href="tel:+997868765">Free +99 (786) 8765</a>
+                                        <a href="tel:+917567329956">Free +91 7567329956</a>
                                     </div>
                                 </div>
                             </div>

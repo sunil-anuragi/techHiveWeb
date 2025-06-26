@@ -156,7 +156,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-9">
                         <div class="tp-about-2-wrapper mt-15 wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-section-title-wrapper mb-35">
-                                <span class="tp-section-subtitle">KNOW ABOUT OUR TECZA</span>
+                                <span class="tp-section-subtitle">KNOW ABOUT OUR TechHive</span>
                                 <h3 class="tp-section-title">Always Try to Deliver More
                                     Than You Expected</h3>
                                 <p class="tp-section-paragraph">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lorem is simply free text quis bibendum. There are many variations
@@ -224,7 +224,7 @@
                 <div class="row">
                     <div class="tp-service-2-top-wrapper mt-15">
                         <div class="tp-section-title-wrapper mb-55 text-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <span class="tp-section-subtitle">CHECK OUR TECZA SERVICES</span>
+                            <span class="tp-section-subtitle">CHECK OUR TechHive SERVICES</span>
                             <h3 class="tp-section-title">WE ALWAYS TRY TO GIVE <br>
                                 HIGH QUALITY SERVICES OUR CLIENTS</h3>
                         </div>
@@ -382,7 +382,7 @@
                 <div class="row">
                     <div class="tp-project-2-top-wrapper">
                         <div class="tp-section-title-wrapper mb-30 text-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <span class="tp-section-subtitle">CHECK OUR TECZA SERVICES</span>
+                            <span class="tp-section-subtitle">CHECK OUR TechHive SERVICES</span>
                             <h3 class="tp-section-title">check our recent projects <br> 
                                 we have done</h3>
                         </div>
@@ -526,7 +526,7 @@
                             <div class="tp-section-title-wrapper mb-50 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                 <span class="tp-section-subtitle">FREQUENTLY ASKED QUESTION</span>
                                 <h3 class="tp-section-title">What Our Clients Ask about
-                                    our tecza company</h3>
+                                    our TechHive company</h3>
                             </div>
                             <div class="tp-faq-3-accordion accordion-flush wow fadeInLeft" id="accordionFlushExample">
                                 <div class="tp-faq-3-accordion-item accordion-item mb-10">
@@ -603,7 +603,7 @@
                                     </div>
                                     <div class="tp-faq-3-bottom-call-number">
                                         <span>Call Us Free</span>
-                                        <a href="tel:+9978687653695">+999 325 6589</a>
+                                        <a href="tel:+917567329956">7567329956</a>
                                     </div>
                                 </div>
                             </div>
@@ -621,7 +621,7 @@
                         <div class="tp-section-title-wrapper mb-50 text-center">
                             <span class="tp-section-subtitle">CLIENTS FEEDBACK</span>
                             <h3 class="tp-section-title">What Our Client Say About <br>
-                                Our tecza agency</h3>
+                                Our TechHive agency</h3>
                         </div>
                     </div>
                 </div>
@@ -713,10 +713,10 @@
                     <div class="col-xl-6 col-lg-8">
                         <div class="tp-choose-us-2-wrapper wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-section-title-wrapper mb-50">
-                                <span class="tp-section-subtitle">About TECZA Company</span>
+                                <span class="tp-section-subtitle">About TechHive Company</span>
                                 <h3 class="tp-section-title">why people want to choose
-                                    our tecza company</h3>
-                                <p class="tp-section-paragraph">Tecza is the partner of choice for many of the world's leading the enterprises <br>
+                                    our TechHive company</h3>
+                                <p class="tp-section-paragraph">TechHive is the partner of choice for many of the world's leading the enterprises <br>
                                      ME and technology challengers. We businesses and the most technology <br>
                                     elevate their value through custom software in your city area
                                     </p>
@@ -784,7 +784,7 @@
                 </div>
                 <div class="tp-service-solution tp-choose-us-2-solution  text-center mt-80">
                     <a class="tp-service-solution-btn tp-choose-us-2-btn" href="{{ route('aboutus') }}">Trust</a>
-                    <span class="tp-service-solution-text  tp-choose-us-2-solution-text">Join the <a href="{{ route('aboutus') }}">8000+ Companies</a> Trusting Tecza Agency</span>
+                    <span class="tp-service-solution-text  tp-choose-us-2-solution-text">Join the <a href="{{ route('aboutus') }}">8000+ Companies</a> Trusting TechHive Agency</span>
                 </div>
             </div>
         </section>
@@ -929,7 +929,7 @@
                                                         <span class="tp-section-subtitle secondary">technology management</span>
                                                         <h3 class="tp-section-title white">we excute our ideas from the
                                                             start to finishing</h3>
-                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world's leading enterprises <br>
+                                                        <p class="tp-section-paragraph gray">TechHive is the partner of choice for many of the world's leading enterprises <br>
                                                             SME and technology challengers. We help businesses elevate express
                                                             </p>
                                                     </div>
@@ -982,8 +982,8 @@
                                                     <div class="tp-section-title-wrapper mb-45">
                                                         <span class="tp-section-subtitle secondary">technology management</span>
                                                         <h3 class="tp-section-title white">Our Ideas with Precision
-                                                            from  Our tecza agency</h3>
-                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world's leading enterprises <br>
+                                                            from  Our TechHive agency</h3>
+                                                        <p class="tp-section-paragraph gray">TechHive is the partner of choice for many of the world's leading enterprises <br>
                                                             SME and technology challengers. We help businesses elevate express
                                                             </p>
                                                     </div>
@@ -1035,7 +1035,7 @@
                                                     <div class="tp-section-title-wrapper mb-45">
                                                         <span class="tp-section-subtitle secondary">technology management</span>
                                                         <h3 class="tp-section-title white">Bringing Ideas To Fruition From Your Busnness</h3>
-                                                        <p class="tp-section-paragraph gray">Tecza is the partner of choice for many of the world's leading enterprises <br>
+                                                        <p class="tp-section-paragraph gray">TechHive is the partner of choice for many of the world's leading enterprises <br>
                                                             SME and technology challengers. We help businesses elevate express
                                                             </p>
                                                     </div>
